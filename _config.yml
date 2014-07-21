@@ -1,0 +1,23 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Chris Arcand
+tagline:          'A Jekyll theme'
+description:      'Software Engineer at Sport Ngin, orchestral clarinetist & hockey enthusiast'
+url:              http://www.chrisarcand.com
+
+author:
+  name:           'Chris Arcand'
+  url:            https://twitter.com/chrisarcand
+
+paginate:         5
+
+timezone:         America/New_York
+encoding:         utf-8
+
+# Custom vars
