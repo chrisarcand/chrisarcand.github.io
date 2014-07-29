@@ -1,30 +1,42 @@
 ---
 layout: page
 permalink: /about/
-title: About the Theme
-tagline: Minimal Mistakes, a Jekyll Theme
-tags: [about, Jekyll, theme, responsive]
+title: About
+tagline: 
+tags: [about]
 modified: 9-9-2013
-comments: true
+comments: false
 image:
-  feature: texture-feature-02.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
+  feature: banners/cover3.jpg
+  credit: 
+  creditlink: 
 ---
 
-Jekyll is pretty rad and figured releasing a cleaned up version of [my site](http://mademistakes.com)[^1] as a theme for others to hack and build on would be fun. So here be that theme --- I call it **Minimal Mistakes**, a responsive Jekyll theme with large featured images and solid typography. 
+### Software Engineer...
 
-## Minimal Mistakes is all about:
+I work as a software engineer at Sport Ngin in Minneapolis developing web applications in JavaScript and Ruby using Node.js and Rails.
+I graduated from the University of Minnesota's College of Science and Engineering, where I earned a B.S. in computer science with an emphasis in software and data systems development.
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments --- content first.
-* Large feature images for posts and pages.
-* Author sidebar to pimp your bio, photo[^2], and social media links.
-* Simple and clear permalink structure *(ie: domain.com/category/post-title)*
+I like working with the full web stack and playing around with *nix systems in my spare time, and have taken an interest in contributing
+to the open source community. Hockey is fun to play and watch, and my favorite color happens to be trees. Oh, I haven't bored
+you to death yet? Well, to learn more you should just <a href="/resume" target="_blank">see my resumé.</a>
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+---
 
-[^1]: Since open sourcing this theme I have released a couple other Jekyll themes. My website [Made Mistakes](http://mademistakes.com) is currently using a modified version of my [So Simple Theme](http://mmistakes.github.io/so-simple-theme/).
+### ...and Clarinetist
+From 2012:
 
-[^2]: Fancy avatars provided by [Brandon Mathis](http://brandonmathis.com/projects/fancy-avatars/demo/) under a [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
+As a performer, orchestral clarinetist Chris Arcand has drawn acclaim for his
+exuberant chamber performances and solo appearances featuring works of Bernstein,
+Muczynski, Copland, Brahms, and others. He has performed in many ensembles and
+events around the Twin Cities, including the Kenwood Symphony and numerous
+organizations at Orchestra Hall in downtown Minneapolis. In 2006 and 2007,
+Instrumentalist Magazine awarded Arcand their award for Outstanding Musicianship
+in Minnesota. Performing at various festivals and clinics since 2005, he
+has had the opportunity to collaborate with such composers as Frank Ticheli, Libby
+Larsen, Alex Shapiro and Carter Pann. In 2007 he was named a Ferguson Scholar by
+the University of Minnesota, School of Music.
+
+As an instructor, Arcand enjoys teaching a private studio of students not only about playing the clarinet up to a professional level but about Western music as a whole and its many facets beyond a single woodwind's point of view. An affiliated faculty member at White Bear Lake High School, Arcand regularly holds master classes for clarinetists of White Bear Lake’s wind ensembles and is listed as a recommended instructor by the White Bear Band Boosters. He has also served as a faculty member of the David Thomas School of Music.
+
+Originally from White Bear Lake, Minnesota, Arcand enrolled at the Rymer Hadley Academy Of Fine Arts playing the clarinet at age 9. He continued his studies with Richard Wyland, eventually deciding to audition to conservatories after high school. The distinguished Evergreen Club of Minneapolis awarded him a scholarship for the pursuit. Arcand earned his Bachelor of Music in Clarinet Performance from the University of Minnesota, where his principal teachers were Burt Hara and Craig Kirchoff. Using Buffett-Crampon clarinets, Mr. Arcand plays exclusively on Vandoren reeds.

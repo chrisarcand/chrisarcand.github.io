@@ -1,21 +1,21 @@
-title:            Site Title
-description:      Describe your website.
+title:            chrisarcand.com
+description:      Personal Blog
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://localhost:4000
 disqus_shortname:
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         bio-photo.jpg
-  bio:            "Describe your self."
-  email:          your@email.com
+  name:           Chris Arcand
+  avatar:         avatar.jpeg
+  bio:            "Software Engineer at Sport Ngin, orchestral clarinetist & hockey enthusiast"
+  email:
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:
+  twitter: chrisarcand
   facebook:
-  github:
+  github: chrisarcand
   stackoverflow:
-  linkedin:
+  linkedin: chrisarcand
   instagram:
   lastfm:
   tumblr:
@@ -39,17 +39,12 @@ links:
     url: /about/
   - title: Posts
     url: /posts/
-  - title: Theme Setup
-    url: /theme-setup/
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
 future:      true
-pygments:    true
-#highlighter: pygments
+#pygments:    true
+highlighter: pygments
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
