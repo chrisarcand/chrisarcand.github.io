@@ -7,7 +7,7 @@ tags: [about]
 modified: 9-9-2013
 comments: false
 image:
-  feature: banners/cover3.jpg
+  feature: banners/cover9.jpg
   credit: 
   creditlink: 
 ---

@@ -66,7 +66,7 @@ body {
 			white-space: nowrap;
 			border-bottom: 0 solid transparent;
 		}
-		a { 
+		a {
 			display: block;
 			padding: 10px 0;
 			decoration: none;
@@ -151,11 +151,11 @@ body {
 	}
 }
 // Style the toggle menu link and hide it
-.nav .navtoogle {	
+.nav .navtoogle {
 	.font-rem(18);
 	font-weight: normal;
 	background-color: @black;
-	color: @white;	
+	color: @white;
 	border: none;
 	cursor: pointer;
 	@media @600px {
@@ -192,7 +192,7 @@ body {
 	}
 }
 // Displaying the menu when the user has clicked on the button
-.js .nav .active + ul {		
+.js .nav .active + ul {
 	max-height: 30em;
 	overflow: hidden;
 	-webkit-transition: max-height .4s;
@@ -342,6 +342,9 @@ body {
 	.bio-photo {
 		max-width: 110px;
 		.rounded(150px);
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+		padding: 2px;
 	}
 	@media @600px {
 		display: block;
@@ -411,7 +414,7 @@ body {
 			border-bottom-style: solid;
 		}
 	}
-	p > a.reversefootnote, 
+	p > a.reversefootnote,
 	li > a.reversefootnote {
 		border-bottom-width: 0;
 	}
@@ -500,7 +503,7 @@ body {
 	margin: 1em 0;
 	li {
 		display: inline;
-		a { 
+		a {
 			border-bottom: 0 solid transparent;
 			&:hover {
 				border-bottom: 0 solid transparent;
@@ -529,12 +532,12 @@ body {
 	a.jp-current {
 		font-weight: bold;
 	}
-	a.jp-disabled, 
+	a.jp-disabled,
 	a.jp-disabled:hover {
 	}
-	a.jp-current, 
-	a.jp-current:hover,  
-	a.jp-disabled, 
+	a.jp-current,
+	a.jp-current:hover,
+	a.jp-disabled,
 	a.jp-disabled:hover {
 		cursor: default;
 		background: none;
@@ -555,7 +558,7 @@ body {
 	h4,
 	h5,
 	h6,
-	span { 
+	span {
 		.font-rem(14);
 	}
 	footer {
@@ -590,7 +593,7 @@ body {
 		.suffix(12,3.5);
 	}
 	h4 {
-		
+
 		text-transform: uppercase;
 		margin-bottom: 0;
 	}
