@@ -101,8 +101,8 @@ image:
       </a>
     </div>
     <p>
-      I've rewritten this very site anywhere from 4 to 6 times; it's kind of been my little guinea pig
-      for trying out new languages/tools/servers/etc. 
+      I've rewritten this very site anywhere from 3 to 4 times; it used to be my little guinea pig
+      for introducing myself to new languages/tools/servers/etc. 
       <br><br>
       One version used Python with the Flask microframework
       (before it was cool!), Jinja2, mongoDB (NoSQL), and a whole bunch of respective Python libraries (MongoEngine, WTForms, etc).
