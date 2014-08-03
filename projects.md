@@ -14,38 +14,43 @@ image:
 
 <div class="project-container-outer shadow">
   <div class="project-container-inner">
-    <h3>Opsicle <span class="label label-success">Active</span></h3>
+    <h3>Opsicle <span class="label label-success">Active</span><a href="http://badge.fury.io/rb/opsicle"><img class="pull-right" src="https://badge.fury.io/rb/opsicle.svg" alt="Gem Version" height="18"></a></h3>
     <p>
-      A collaboration with <a href="http://www.brdyorn.com" target="_none">Brady Ouren</a>, this project aimed to be a web-based
-      bucket built in Node.js containing all of your notes, tasks, and bookmarks in a taggable, indexable way with a RESTful API to
-      access them. It was designed to be a platform and machine independent method to store resources which would hopefully never really be
-      obsolete as you could built any new frontend to change your workflow in the future.
+      "A gem bringing the glory of OpsWorks to your command line", Opsicle uses the AWS SDK
+      to provide a command line interface to Amazon's OpsWorks application management service. It
+      has helpful features that include deployments, helpful SSH access to your instances, a in-terminal
+      stack monitor, updating custom Chef recipes and more. 
     </p>
-    <a href="https://github.com/tippenein/hink" class="github-link" target="_blank">See this project on GitHub</a>
+    <p><a href="https://github.com/sportngin/opsicle" target="_blank">See this project on GitHub</a></p>
   </div>
 </div>
 
 <div class="project-container-outer shadow">
   <div class="project-container-inner">
-    <h3>Hink <span class="label">Retired</span></h3>
+    <h3>Hink & Hink-cli <span class="label label-warning">In Development</span></h3>
     <p>
-      A collaboration with <a href="http://www.brdyorn.com" target="_none">Brady Ouren</a>, this project aimed to be a web-based
-      bucket built in Node.js containing all of your notes, tasks, and bookmarks in a taggable, indexable way with a RESTful API to
-      access them. It was designed to be a platform and machine independent method to store resources which would hopefully never really be
-      obsolete as you could built any new frontend to change your workflow in the future.
+      A collaboration with <a href="http://www.brdyorn.com" target="_none">Brady Ouren</a>, this project
+      aims to be a self-hosted storage app containing all of your text or file based data. 
+      Hink tries to make it easy to store notes, links, images via RESTful API. It's supposed to be
+      frontend agnostic, so anything that consumes this API will be up to you. One such example is Hink-cli,
+      a separate command line parser.
     </p>
-    <a href="https://github.com/tippenein/hink" class="github-link" target="_blank">See this project on GitHub</a>
+    <p>
+      <a href="https://github.com/tippenein/hink" target="_blank">See Hink on GitHub</a><br />
+      <a href="https://github.com/ChrisArcand/hink-cli" target="_blank">See Hink-cli on GitHub</a>
+    </p>
   </div>
 </div>
 
 <div class="project-container-outer shadow">
   <div class="project-container-inner">
     <h3>UMN Classroom Finder <span class="label">Retired</span></h3>
-    <div class="project-tb-container shadow">
-      <a class="fancybox" rel="group" href="/images/projects/scraper.png">
-        <img src="/images/projects/scraper_tb.png" alt="" />
+    <figure class="pull-right">
+      <a href="/images/projects/scraper.png">
+        <img class="shadow" src="/images/projects/scraper_tb.png" alt="" />
       </a>
-    </div>
+      <figcaption>Ye Olde Search UI</figcaption>
+    </figure>
     <p>
       In February 2013 I worked with some computer science colleagues from the UofM to create a 'classroom finder' web application. It searched a database we filled every hour for any unscheduled classrooms on campus and presented the information in a sorted, meaningful way. Built mostly in Python, we used the Beautiful Soup library to scrape the University's classroom management site for classroom schedules, placed them in a SQLite database, and presented sorted information in a Flask frontend designed for mobile devices so you could whip out your smartphone on campus and find a place to study on the go. The result was a quick and easy way to find classrooms to get away from the <i>very</i> busy study commons, unlike the U's classroom management site which was clunky and didn't have a very good way to
       browse for open classrooms.
@@ -54,18 +59,18 @@ image:
       <br><br>
       The project is headed by my good friend <a href="http://www.brdyorn.com" target="_blank">Brady Ouren</a>, and is hosted on his site <a href="http://brontasaur.us" target="_blank">brontasaur.us</a>. You can read more about the specifics of how we built it on <a href="http://www.brdyorn.com/post/classroom-scraper" target="_blank">his blog post about the subject</a>.
     </p>
-    <a href="https://github.com/ChrisArcand/classroom_finder" class="github-link" target="_blank">See this project on GitHub</a>
+    <p><a href="https://github.com/ChrisArcand/classroom_finder" target="_blank">See this project on GitHub</a></p>
   </div>
 </div>
 
 <div class="project-container-outer shadow">
   <div class="project-container-inner">
     <h3>'KIX' to C++ Language Translator <span class="label label-info">Completed</span></h3>
-    <div class="project-tb-container shadow">
-      <a class="fancybox" rel="group" href="/images/projects/3081w_project.png">
-        <img src="/images/projects/3081w_project_tb.png" alt="" />
+    <figure class="pull-right">
+      <a href="/images/projects/3081w_project.png">
+        <img class="shadow" src="/images/projects/3081w_project_tb.png" alt="" />
       </a>
-    </div>
+    </figure>
     <p>
       I implemented a language translator in a semester long project for my CSCI3081W class in Spring 2012 at the University of Minnesota.
       The complexity and sheer amount of work (many thousands of lines of code) makes it stand out as one of the more prominent projects that
@@ -95,25 +100,33 @@ image:
 <div class="project-container-outer shadow">
   <div class="project-container-inner">
     <h3>ChrisArcand.com <span class="label label-success">Active</span></h3>
-    <div class="project-tb-container shadow">
-      <a class="fancybox" rel="group" href="/images/projects/site2.png">
-        <img src="/images/projects/site2_tb.png" alt="" />
-      </a>
+    <div class="pull-right">
+      <figure>
+        <a href="/images/projects/site.png">
+          <img class="shadow" src="/images/projects/site_tb.png" alt="" />
+        </a>
+        <figcaption>Python/Flask</figcaption>
+      </figure>
+      <figure>
+        <a href="/images/projects/site2.png">
+          <img class="shadow" src="/images/projects/site2_tb.png" alt="" />
+        </a>
+        <figcaption>Node.js/Express</figcaption>
+      </figure>
     </div>
     <p>
       I've rewritten this very site anywhere from 3 to 4 times; it used to be my little guinea pig
       for introducing myself to new languages/tools/servers/etc. 
       <br><br>
-      One version used Python with the Flask microframework
-      (before it was cool!), Jinja2, mongoDB (NoSQL), and a whole bunch of respective Python libraries (MongoEngine, WTForms, etc).
+      One version used Python with the <a href="http://flask.pocoo.org/" target="_blank">Flask</a> microframework
+      (before it was cool!), <a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a>, <a href="http://www.mongodb.org/" target="_blank">MongoDB</a> (NoSQL), and a whole bunch of respective Python libraries (<a href="http://mongoengine.org/" target="_blank">MongoEngine</a>, <a href="https://github.com/wtforms/wtforms" target="_blank">WTForms</a>, etc).
       Another used <a href="http://www.nodejs.org" target="_blank">Node.js</a> with <a href="http://www.expressjs.com" target="_blank">Express</a>,
       <a href="http://jsantell.github.io/poet/" target="_blank">Poet.js</a>, and
       <a href="http://paularmstrong.github.io/swig/" target="_blank">Swig</a>. It's current [and final] version
-      moves on to Ruby with Jekyll, kramdown, and a more or <i>Less</i> (get it?) organized set of front end assets using Grunt.js.
+      moves on to Ruby with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>, <a href="http://kramdown.gettalong.org/" target="_blank">kramdown</a>, and a more or <a href="http://lesscss.org/" target="_blank"><i>Less</i></a> (get it?) organized set of front end assets using <a href="http://gruntjs.com/" target="_blank">Grunt.js</a>.
     </p>
-    <a href="https://github.com/ChrisArcand" class="github-link" target="_blank">See previous versions on GitHub</a>
+    <p><a href="https://github.com/ChrisArcand" target="_blank">See previous versions on GitHub</a></p>
   </div>
 </div>
 
-I've worked on quite a few projects for work and play; This list is just a small sampling of larger
-open projects that I have contributed to. 
+I've worked on quite a few projects for work and play; this list is just a small sampling. 
