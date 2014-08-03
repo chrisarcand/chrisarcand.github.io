@@ -34,7 +34,7 @@
 </li>
 </ul>
 <p>You're done. Listing your file details in the Packages directory should yield something like this:</p>
-<p><img src="../images/post_images/sublime_symlink.png" alt="Sublime Symlink" width="499" height="87" /></p>
+<p><img src="../images/posts/sublime_symlink.png" alt="Sublime Symlink" width="499" height="87" /></p>
 <p>If you're using GitHub, you could now create a repository and initialize the .dotfiles directory.</p>
 <ul>
 <li>&lt;Create a GitHub repo&gt;</li>

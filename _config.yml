@@ -39,6 +39,10 @@ links:
     url: /about/
   - title: Posts
     url: /posts/
+  - title: Projects
+    url: /projects/
+  - title: Contact
+    url: /contact/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
