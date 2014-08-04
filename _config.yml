@@ -1,7 +1,8 @@
-title:            chrisarcand.com
+title:            Chris Arcand
 description:      Personal Blog
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://www.chrisarcand.com
+site_name:        chrisarcand.com
 disqus_shortname:
 
 # Owner/author information
