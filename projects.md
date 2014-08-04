@@ -7,18 +7,18 @@ tags: [projects]
 modified: 9-9-2013
 comments: false
 image:
-  feature: banners/cover9.jpg
+  feature: banners/cover13.jpg
   credit: 
   creditlink: 
 ---
 
 <div class="project-container-outer shadow">
   <div class="project-container-inner">
-    <h3>Opsicle <span class="label label-success">Active</span><a href="http://badge.fury.io/rb/opsicle"><img class="pull-right" src="https://badge.fury.io/rb/opsicle.svg" alt="Gem Version" height="18"></a></h3>
+    <h3>Opsicle <a href="http://badge.fury.io/rb/opsicle"><img class="pull-right" src="https://badge.fury.io/rb/opsicle.svg" alt="Gem Version" height="18"></a><span class="label label-success pull-right" style="margin-right: 10px;">Active</span></h3>
     <p>
       "A gem bringing the glory of OpsWorks to your command line", Opsicle uses the AWS SDK
       to provide a command line interface to Amazon's OpsWorks application management service. It
-      has helpful features that include deployments, helpful SSH access to your instances, a in-terminal
+      features deployments, direct SSH access to your instances, an in-terminal
       stack monitor, updating custom Chef recipes and more. 
     </p>
     <p><a href="https://github.com/sportngin/opsicle" target="_blank">See this project on GitHub</a></p>
@@ -27,7 +27,7 @@ image:
 
 <div class="project-container-outer shadow">
   <div class="project-container-inner">
-    <h3>Hink & Hink-cli <span class="label label-warning">In Development</span></h3>
+    <h3>Hink & Hink-cli <span class="label label-warning pull-right">In Development</span></h3>
     <p>
       A collaboration with <a href="http://www.brdyorn.com" target="_none">Brady Ouren</a>, this project
       aims to be a self-hosted storage app containing all of your text or file based data. 
@@ -44,7 +44,7 @@ image:
 
 <div class="project-container-outer shadow">
   <div class="project-container-inner">
-    <h3>UMN Classroom Finder <span class="label">Retired</span></h3>
+    <h3>UMN Classroom Finder <span class="label pull-right">Retired</span></h3>
     <figure class="pull-right">
       <a href="/images/projects/scraper.png">
         <img class="shadow" src="/images/projects/scraper_tb.png" alt="" />
@@ -65,7 +65,7 @@ image:
 
 <div class="project-container-outer shadow">
   <div class="project-container-inner">
-    <h3>'KIX' to C++ Language Translator <span class="label label-info">Completed</span></h3>
+    <h3>'KIX' to C++ Language Translator <span class="label label-info pull-right">Completed</span></h3>
     <figure class="pull-right">
       <a href="/images/projects/3081w_project.png">
         <img class="shadow" src="/images/projects/3081w_project_tb.png" alt="" />
@@ -99,7 +99,7 @@ image:
 
 <div class="project-container-outer shadow">
   <div class="project-container-inner">
-    <h3>ChrisArcand.com <span class="label label-success">Active</span></h3>
+    <h3>ChrisArcand.com <span class="label label-success pull-right">Active</span></h3>
     <div class="pull-right">
       <figure>
         <a href="/images/projects/site.png">

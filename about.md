@@ -14,12 +14,14 @@ image:
 
 ### Software Engineer...
 
-I work as a software engineer at Sport Ngin in Minneapolis developing web applications in JavaScript and Ruby using Node.js and Rails.
-I graduated from the University of Minnesota's College of Science and Engineering, where I earned a B.S. in computer science with an emphasis in software and data systems development.
+I work as a software engineer at Sport Ngin in Minneapolis - but I live in the Washington, D.C. metro area. At Sport Ngin I build
+web applications in Ruby and Javascript using Rails and Node.js. 
+I have a B.S. in computer science with an emphasis in software and data systems development from University of Minnesota's College of Science and Engineering.
 
-I like working with the full web stack and playing around with *nix systems in my spare time, and have taken an interest in contributing
-to the open source community. Hockey is fun to play and watch, and my favorite color happens to be trees. Oh, I haven't bored
-you to death yet? Well, to learn more you should just <a href="/resume" target="_blank">see my resumé.</a>
+I like working with the full web stack and contributing to the open source community. Besides programming I'm overly obsessed with hockey, enjoy 
+performing and listening to music (but you already knew that), I've taken an interest in photography, and my favorite color happens to be trees. 
+
+Oh, I haven't bored you to death yet? Well, to learn more you should just <a href="/CPA_resume.pdf" target="_blank">see my resumé.</a>
 
 ---
 
