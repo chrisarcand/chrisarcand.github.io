@@ -28,7 +28,7 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
 
 * **[The `❨╯°□°❩╯︵┻━┻` method in Sidekiq][4]**
 
-  ~~~ruby
+  {% highlight ruby %}
   def self.❨╯°□°❩╯︵┻━┻
     puts "Calm down, bro"
   end
@@ -42,10 +42,10 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
       assert_equal "Calm down, bro\n", $stdout.string
     end
   end
-  ~~~
+  {% endhighlight %}
 * **[The `wtf!?!?` method in Pry][5]**
 
-  ~~~ruby
+  {% highlight ruby %}
   class Pry
     class Command::Wtf < Pry::ClassCommand
       match(/wtf([?!]*)/)
@@ -67,7 +67,7 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
         wtf -v
       BANNER
     ...
-  ~~~
+  {% endhighlight %}
 
   \* I would argue this _needs_ to exist.
 
@@ -75,11 +75,11 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
   
   _Submitted by Ian Ehlert_
 
-  ~~~plaintext
+  {% highlight plaintext %}
   public static boolean isUserAMonkey ()   Since: API Level 8
 
   Returns "true" if the user interface is currently being messed with by a monkey.
-  ~~~
+  {% endhighlight %}
 
   I'm not sure if this is all that strange considering the Monkey is a well documented, actual
   command line tool to stress test your UI. But that's part of the mucher larger joke.
@@ -91,23 +91,23 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
   I don't know if it was really intended to be a novelty or taken seriously, but I find it amusing.
   And yes, I do actually try and use this - in tests, anyway.
 
-  ~~~ruby
+  {% highlight ruby %}
   def fortnights
     ActiveSupport::Duration.new(self * 2.weeks, [[:days, self * 14]])
   end
   alias :fortnight :fortnights
-  ~~~
+  {% endhighlight %}
 * **[The `seppuku` command in RVM][7]**
 
   Wayne Seguin added this as an alias for `implode`. The change reads "Added 'rvm seppuku' in honor
   of tsykoduk who can't spell so it saved his life."
 
-  ~~~ruby
+  {% highlight ruby %}
   implode|seppuku)
     source "$rvm_scripts_path/functions/implode"
     __rvm_implode
     ;;
-  ~~~
+  {% endhighlight %}
 
   I especially enjoy the `rvm_log "Hai! Removing $rvm_path"`
 
@@ -115,10 +115,10 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
 
   These commands seemed to have been removed since they were added in v0.1.30
 
-  ~~~ruby
-    answer) __rvm_Answer_to_the_Ultimate_Question_of_Life_the_Universe_and_Everything ; result=42 ;;
-    question) __rvm_ultimate_question ; result=42 ;;
-  ~~~
+  {% highlight ruby %}
+  answer) __rvm_Answer_to_the_Ultimate_Question_of_Life_the_Universe_and_Everything ; result=42 ;;
+  question) __rvm_ultimate_question ; result=42 ;;
+  {% endhighlight %}
 
   More entertaining is the bugfix for these commands that shortly followed:
 
