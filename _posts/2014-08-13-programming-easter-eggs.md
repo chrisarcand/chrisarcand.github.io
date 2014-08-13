@@ -17,14 +17,14 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
 
 * **[The `fourty_two` array accessor in Rails][3]**
 
-  ```ruby
-  # Equal to <tt>self[41]</tt>. Also known as accessing "the reddit".
-  #
-  #   (1..42).to_a.forty_two # => 42
-  def forty_two
-    self[41]
-  end
-  ```
+```ruby
+# Equal to <tt>self[41]</tt>. Also known as accessing "the reddit".
+#
+#   (1..42).to_a.forty_two # => 42
+def forty_two
+  self[41]
+end
+```
 
 * **[The `❨╯°□°❩╯︵┻━┻` method in Sidekiq][4]**
 
