@@ -15,7 +15,7 @@ in projects which don't necessarily need to exist are always satisfying and amus
 There are a number of them that my colleagues or I have stumbled upon. Have any additions,
 especially non-Ruby ones? [Let me know][2] and I'll add them to the list. 
 
-* **[The `fourty_two` array accessor in Rails][3]**
+###[The 'fourty_two' array accessor in Rails][3]
 
   ```ruby
   # Equal to <tt>self[41]</tt>. Also known as accessing "the reddit".
@@ -26,7 +26,7 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
   end
   ```
 
-* **[The `❨╯°□°❩╯︵┻━┻` method in Sidekiq][4]**
+###[The '❨╯°□°❩╯︵┻━┻' method in Sidekiq][4]
 
   ```ruby
   def self.❨╯°□°❩╯︵┻━┻
@@ -43,7 +43,7 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
     end
   end
   ```
-* **[The `wtf!?!?` method in Pry][5]**
+###[The 'wtf!?!?' method in Pry][5]
 
   ```ruby
   class Pry
@@ -68,10 +68,9 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
       BANNER
     ...
   ```
-
   \* I would argue this _needs_ to exist.
 
-* **The `isUserAMonkey` function in the android.app.ActivityManager package**
+###The 'isUserAMonkey' function in the android.app.ActivityManager package
   
   _Submitted by Ian Ehlert_
 
@@ -84,9 +83,9 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
   I'm not sure if this is all that strange considering the Monkey is a well documented, actual
   command line tool to stress test your UI. But that's part of the mucher larger joke.
 
-### Honorable Mentions:
+# Honorable Mentions
 
-* **[The `fortnight` method in Rails][6]**
+###[The 'fortnight' method in Rails][6]
 
   I don't know if it was really intended to be a novelty or taken seriously, but I find it amusing.
   And yes, I do actually try and use this - in tests, anyway.
@@ -97,7 +96,7 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
   end
   alias :fortnight :fortnights
   ```
-* **[The `seppuku` command in RVM][7]**
+###[The 'seppuku' command in RVM][7]
 
   Wayne Seguin added this as an alias for `implode`. The change reads "Added 'rvm seppuku' in honor
   of tsykoduk who can't spell so it saved his life."
@@ -111,7 +110,7 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
 
   I especially enjoy the `rvm_log "Hai! Removing $rvm_path"`
 
-* **[The `question` and `answer` commands in RVM][8]**
+###[The 'question' and 'answer' commands in RVM][8]
 
   These commands seemed to have been removed since they were added in v0.1.30
 
