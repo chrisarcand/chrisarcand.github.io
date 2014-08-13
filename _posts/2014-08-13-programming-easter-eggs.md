@@ -17,18 +17,18 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
 
 * **[The `fourty_two` array accessor in Rails][3]**
 
-  {% highlight ruby %}
+  ```ruby
   # Equal to <tt>self[41]</tt>. Also known as accessing "the reddit".
   #
   #   (1..42).to_a.forty_two # => 42
   def forty_two
     self[41]
   end
-  {% endhighlight %}
+  ```
 
 * **[The `❨╯°□°❩╯︵┻━┻` method in Sidekiq][4]**
 
-  {% highlight ruby %}
+  ```ruby
   def self.❨╯°□°❩╯︵┻━┻
     puts "Calm down, bro"
   end
@@ -42,10 +42,10 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
       assert_equal "Calm down, bro\n", $stdout.string
     end
   end
-  {% endhighlight %}
+  ```
 * **[The `wtf!?!?` method in Pry][5]**
 
-  {% highlight ruby %}
+  ```ruby
   class Pry
     class Command::Wtf < Pry::ClassCommand
       match(/wtf([?!]*)/)
@@ -67,7 +67,7 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
         wtf -v
       BANNER
     ...
-  {% endhighlight %}
+  ```
 
   \* I would argue this _needs_ to exist.
 
@@ -75,11 +75,11 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
   
   _Submitted by Ian Ehlert_
 
-  {% highlight plaintext %}
+  ```bash
   public static boolean isUserAMonkey ()   Since: API Level 8
 
   Returns "true" if the user interface is currently being messed with by a monkey.
-  {% endhighlight %}
+  ```
 
   I'm not sure if this is all that strange considering the Monkey is a well documented, actual
   command line tool to stress test your UI. But that's part of the mucher larger joke.
@@ -91,23 +91,23 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
   I don't know if it was really intended to be a novelty or taken seriously, but I find it amusing.
   And yes, I do actually try and use this - in tests, anyway.
 
-  {% highlight ruby %}
+  ```ruby
   def fortnights
     ActiveSupport::Duration.new(self * 2.weeks, [[:days, self * 14]])
   end
   alias :fortnight :fortnights
-  {% endhighlight %}
+  ```
 * **[The `seppuku` command in RVM][7]**
 
   Wayne Seguin added this as an alias for `implode`. The change reads "Added 'rvm seppuku' in honor
   of tsykoduk who can't spell so it saved his life."
 
-  {% highlight ruby %}
+  ```ruby
   implode|seppuku)
     source "$rvm_scripts_path/functions/implode"
     __rvm_implode
     ;;
-  {% endhighlight %}
+  ```
 
   I especially enjoy the `rvm_log "Hai! Removing $rvm_path"`
 
@@ -115,14 +115,14 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
 
   These commands seemed to have been removed since they were added in v0.1.30
 
-  {% highlight ruby %}
+  ```ruby
   answer) __rvm_Answer_to_the_Ultimate_Question_of_Life_the_Universe_and_Everything ; result=42 ;;
   question) __rvm_ultimate_question ; result=42 ;;
-  {% endhighlight %}
+  ```
 
   More entertaining is the bugfix for these commands that shortly followed:
 
-    > Bugfix: 'rvm answer' now uses perl, since the universe is written in Perl. As it is obvious... the universe has bugs, and perl is the only language that can have bugs not even god could sort out.
+  > Bugfix: 'rvm answer' now uses perl, since the universe is written in Perl. As it is obvious... the universe has bugs, and perl is the only language that can have bugs not even god could sort out.
 
 [1]: http://www.i-programmer.info/history/computer-languages/2340-coded-easter-eggs.html
 [2]: http://www.twitter.com/chrisarcand
