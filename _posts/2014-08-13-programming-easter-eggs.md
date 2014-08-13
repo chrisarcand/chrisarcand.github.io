@@ -81,7 +81,7 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
   ```
 
   I'm not sure if this is all that strange considering the Monkey is a well documented, actual
-  command line tool to stress test your UI. But that's part of the mucher larger joke.
+  command line tool to stress test your UI. But that's part of the much larger joke.
 
 # Honorable Mentions
 
