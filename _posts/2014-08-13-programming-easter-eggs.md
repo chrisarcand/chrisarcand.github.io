@@ -10,7 +10,7 @@ comments:
 share: 
 ---
 
-Perhaps these shouldn't be called Easter Eggs - 'programming novelties'? - but the little additions
+Perhaps these shouldn't be called Easter Eggs - 'programming novelties'? - but the little additions 
 in projects which don't necessarily need to exist are always satisfying and amusing to me. 
 There are a number of them that my colleagues or I have stumbled upon. Have any additions,
 especially non-Ruby ones? [Let me know][2] and I'll add them to the list. 
