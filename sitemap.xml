@@ -6,7 +6,7 @@ layout: nil
     <url>
         <loc>{{ site.url }}</loc>
     </url>
-    
+
     {% for page in site.pages %}
     <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
@@ -16,6 +16,12 @@ layout: nil
     {% for post in site.posts %}
     <url>
         <loc>{{ site.url }}{{ post.url }}</loc>
+    </url>
+    {% endfor %}
+
+    {% for talk in site.talks %}
+    <url>
+        <loc>{{ site.url }}{{ talk.url }}</loc>
     </url>
     {% endfor %}
 </urlset>
