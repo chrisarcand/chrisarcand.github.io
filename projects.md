@@ -27,6 +27,20 @@ image:
 
 <div class="project-container-outer shadow">
   <div class="project-container-inner">
+    <h3>rbhex-core <a href="http://badge.fury.io/rb/rbhex-core"><img class="pull-right" src="https://badge.fury.io/rb/rbhex-core.svg" alt="Gem Version" height="18"></a><span class="label label-success pull-right" style="margin-right: 10px;">Active</span></h3>
+    <p>
+      rbhex helps to easily build applications for text terminals in Ruby. It is a continuation of <a href="https://github.com/rkumar">rkumar</a>'s
+      <a href="https://github.com/rkumar/rbcurse">rbcurse</a>, which stopped being supported in March 2014.
+    </p>
+    <p>
+      The core gem contains basic widgets and wrapper classes around ncurses including fields, buttons, lists, tables, menus, headers and status lines.
+    </p>
+    <p><a href="https://github.com/ChrisArcand/rbhex-core" target="_blank">See this project on GitHub</a></p>
+  </div>
+</div>
+
+<div class="project-container-outer shadow">
+  <div class="project-container-inner">
     <h3>Hink & Hink-cli <span class="label label-warning pull-right">In Development</span></h3>
     <p>
       A collaboration with <a href="http://www.brdyorn.com" target="_none">Brady Ouren</a>, this project
