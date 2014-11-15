@@ -20,6 +20,8 @@ depending on what you have there, (namely, _Homebrew_ uses `/usr/local` and it h
 this ahead of time and it took many, many hours to upgrade. In hindsight, I would have probably just completely removed
 Homebrew and started fresh afterward, at minimum.
 
+<Insert obligatory statement about how you should close this window and not upgrade without cloning your machine first...>
+
 *   **Install Xcode**  
     I have found that being stubborn and refusing to do so only causes problems - even if you don't use Xcode directly - because Apple™.
     You can just install it via the App Store. 
