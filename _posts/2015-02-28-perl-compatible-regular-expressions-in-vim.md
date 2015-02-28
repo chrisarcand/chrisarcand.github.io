@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Perl Compatible Regular Expressions in vim"
+preview: "TLDR: If you don't want to have to deal with vim's non-Perl-like regular expressions in substitutions, you can easily enable Perl support and use :perldo <substitution> to get the job done."
 tags: [vim]
 ---
 
