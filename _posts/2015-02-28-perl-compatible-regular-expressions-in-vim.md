@@ -19,7 +19,7 @@ expressions 'as I knew them' closely enough) and it worked perfectly.
 
 Having seen and used regular expressions a lot, I got frustrated for a bit until I quickly found the [commonly known, derp] reason:
 
-**Vim uses its own implementation of regular expressions. Namely, the syntax is _not_ the same as PCRE (Perl Complaint
+**Vim uses its own implementation of regular expressions. Namely, the syntax is _not_ the same as PCRE (Perl Compatible
 Regular Expressions), the style of regular expressions most commonly found across the industry since Perl in languages
 such as PHP, Ruby, Java, Javascript, and Python.**
 
