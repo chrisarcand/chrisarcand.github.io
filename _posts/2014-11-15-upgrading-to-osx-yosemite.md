@@ -88,6 +88,6 @@ Find other issues and/or solutions? [Let me know][8] and I'll add them to the li
 [5]: https://github.com/sportngin/opsicle
 [6]: https://github.com/sportngin/octopolo
 [7]: http://stackoverflow.com/questions/26369548/rvm-project-path-in-oh-my-zsh-prompt
-[8]: http://http://chrisarcand.com/contact
+[8]: http://chrisarcand.com/contact
 [9]: https://github.com/Rodreegez/powder
 [10]: https://github.com/rodreegez/powder/commit/1225959df689502eec9447816527d1818da8ef14
