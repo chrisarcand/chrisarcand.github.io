@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dunbar's Number and Working Better with Those We Actually Know"
-link: https://www.linkedin.com/pulse/dunbars-number-working-better-those-we-actually-know-blake-fitzgerald
+link: https://medium.com/@blakefitzgerald/dunbar-s-number-and-working-better-with-those-we-actually-know-b8da8ebe6a14
 image: 
   feature: posts/dunbars-number-banner.jpg
   credit: 
