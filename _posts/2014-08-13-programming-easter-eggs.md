@@ -70,7 +70,7 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
   ```
   \* I would argue this _needs_ to exist.
 
-###[`nyan-cat`, `get-naked`, and poems in Pry][9]
+###['nyan-cat', 'get-naked', and poems in Pry][9]
   
   _From Enrico Genauck (@enricogenauck), Added 5/4/15_
 
