@@ -2,6 +2,7 @@
 layout: post
 title: "Programming Easter Eggs"
 tags: [Ruby, Programming]
+modified: 05-04-2015
 image:
   feature:
   credit: 
