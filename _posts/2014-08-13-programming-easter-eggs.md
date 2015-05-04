@@ -70,6 +70,13 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
   ```
   \* I would argue this _needs_ to exist.
 
+###[`nyan-cat`, `get-naked`, and poems in Pry][9]
+  
+  _From Enrico Genauck (@enricogenauck), Added 5/4/15_
+
+The `pry` gem also includes a [dedicated file to Easter Eggs][9] with nyan cat and
+a few text snippets from Jermaine Stewart, T.S. Eliot, and Leonard Cohen, and Fernando Pessoa.
+
 ###The 'isUserAMonkey' function in the android.app.ActivityManager package
   
   _Submitted by Ian Ehlert_
@@ -131,3 +138,4 @@ especially non-Ruby ones? [Let me know][2] and I'll add them to the list.
 [6]: https://github.com/rails/rails/blob/master/activesupport/lib/active_support/core_ext/numeric/time.rb#L59
 [7]: https://github.com/wayneeseguin/rvm/blob/master/scripts/cli#L873
 [8]: https://github.com/wayneeseguin/rvm/blob/0.1.30/scripts/cli#L417
+[9]: https://github.com/pry/pry/blob/master/lib/pry/commands/easter_eggs.rb
