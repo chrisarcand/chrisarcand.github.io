@@ -26,7 +26,7 @@ layout: null
     <name>{{ site.owner.name }}</name>
     <uri>{{ site.url }}</uri>
   </author>
-  <content type="html">{{ post.content | xml_escape }}</content>
+  <content type="html"><![CDATA[{{ post.content | xml_escape }}]]></content>
 </entry>
 {% endfor %}
 </feed>
