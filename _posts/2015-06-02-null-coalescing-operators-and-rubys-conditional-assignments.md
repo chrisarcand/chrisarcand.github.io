@@ -139,7 +139,7 @@ end
 Lastly, saying '`||=` is a conditional assignment operator' is only a subset of the larger
 truth. The mix of various operators and assignment is simply referred to as [abbreviated assignment][3]. You've probably
 seen this in the form of `+=` to increment a counter or add to a string. In fact, you can mix _any_ of the following
-operators in the pattern `<operator>=`: `+, -, *, /, %, **, &, |, ^, <<, >>`.
+operators in the pattern `<operator>=`: `+, -, *, /, %, **, &, &&, |, ||, ^, <<, >>`.
 
 [1]: http://en.wikipedia.org/wiki/Memoization
 [2]: http://en.wikipedia.org/wiki/Null_coalescing_operator
