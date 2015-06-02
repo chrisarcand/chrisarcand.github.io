@@ -6,6 +6,7 @@ image:
   feature:
   credit:
   creditlink:
+description: "Ruby doesn't have a true null coalescing operator, so don't write something like it does."
 ---
 
 A long time ago in a galaxy far, far away (not really) I started learning and writing Ruby professionally by diving in
