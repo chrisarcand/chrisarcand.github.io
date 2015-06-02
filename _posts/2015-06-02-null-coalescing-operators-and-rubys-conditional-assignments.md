@@ -10,9 +10,9 @@ description: "Ruby doesn't have a true null coalescing operator, so don't write 
 ---
 
 A long time ago in a galaxy far, far away (not really) I started learning and writing Ruby professionally by diving in
-to an existing Rails project. Having the opportunity to learn in a 'trial by fire' sort of setting with other developers
-more experienced with a language is a great way to pick something up very quickly. I remember the first time coming
-across something similar to the following:
+to an existing Rails project. Learning in a 'trial by fire' sort of setting with other developers more experienced with
+a language is a great way to pick something up very quickly. I remember the first time coming across something similar
+to the following:
 
 ```ruby
 def something
