@@ -132,8 +132,9 @@ A Ruby version of what we're trying to do could look like this:
 
 ```ruby
 def some_toggle
-  defined?(@some_toggle) ? @some_toggle : true
+  @some_toggle = defined?(@some_toggle) ? @some_toggle : true
 end
+# Though even this isn't exactly the same - @some_toggle is _always_ assigned (perhaps to itself) in this case
 ```
 
 Lastly, saying '`||=` is a conditional assignment operator' is only a subset of the larger
