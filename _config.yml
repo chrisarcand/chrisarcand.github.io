@@ -6,6 +6,9 @@ url:              http://chrisarcand.com
 site_name:        chrisarcand.com
 disqus_shortname:
 
+gems:
+  - jekyll-sitemap
+
 # Owner/author information
 owner:
   name:           Chris Arcand
