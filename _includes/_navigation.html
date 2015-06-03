@@ -8,7 +8,7 @@
       {% for link in site.links %}
       <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
       {% endfor %}
-      <li><a href="http://chrisarcand.com/feed.xml" target="_blank"><i class="fa fa-rss"></i> Subscribe</a></li>
+      <li><a href="http://chrisarcand.com/feed.atom" target="_blank"><i class="fa fa-rss"></i> Subscribe</a></li>
     </ul>
   </nav>
 </div><!-- /.top-navigation -->
