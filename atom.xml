@@ -14,7 +14,7 @@ layout: null
     {% if site.owner.email %}<email><![CDATA[{{ site.owner.email }}]]></email>{% endif %}
   </author>
   <icon>{{ site.url }}/favicon.ico</icon>
-  <logo>{{ site.url }}/favicon.png</logo>
+  <logo>{{ site.url }}/favicon-96x96.png</logo>
 
   {% for post in site.posts limit: 10 %}
   <entry>
