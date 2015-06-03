@@ -10,8 +10,8 @@ layout: null
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ site.url }}/</id>
   <author>
-    <name><![CDATA[{{ site.author | strip_html }}]]></name>
-    {% if site.email %}<email><![CDATA[{{ site.email }}]]></email>{% endif %}
+    <name><![CDATA[{{ site.owner.name }}]]></name>
+    {% if site.owner.email %}<email><![CDATA[{{ site.owner.email }}]]></email>{% endif %}
   </author>
 
   {% for post in site.posts limit: 10 %}
