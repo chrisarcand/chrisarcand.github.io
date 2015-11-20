@@ -106,7 +106,7 @@ image:
     </p>
     <span class="github-link muted"  style="text-decoration: line-through" target="_blank">See this project on GitHub</span><br>
     As it is a school project which fulfills class requirements, I will not put the project on GitHub - but if you'd like to see it for an
-    example of my work, <a href="/contact">please let me know.</a>
+    example of my work, let me know!</a>
     </p>
   </div>
 </div>
