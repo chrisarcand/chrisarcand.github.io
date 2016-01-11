@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /forhire/
+description: "I'm available as a part-time contractor to help your project flourish. Shoot me an email at hireme@chrisarcand.com to learn more."
 title: Hire me as a Ruby/Rails contractor!
 tags: [forhire]
 comments: false
