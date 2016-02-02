@@ -38,6 +38,22 @@ image:
 
 <div class="project-container-outer shadow">
   <div class="project-container-inner">
+    <h3>Dug ("[D]amn yo[u], [G]mail!")<a href="http://badge.fury.io/rb/dug"><img class="pull-right" src="https://badge.fury.io/rb/dug.svg" alt="Gem Version" height="18"></a><span class="label label-success pull-right" style="margin-right: 10px;">Active</span></h3>
+    <p>
+      Dug is a simple, configurable gem to organize your GitHub notification
+      emails in ways Gmail can't and in an easier-to-maintain way than large,
+      slow Google Apps Scripts. It interacts with Google's Gmail API to do all
+      the things that people usually do with Gmail filters (label by
+      organization name, repository name) as well as parse GitHub's custom X
+      headers to label your messages with things like "Mentioned by name",
+      "Assigned to me", "Commented", etc.
+    </p>
+    <p><a href="https://github.com/chrisarcand/dug" target="_blank">See this project on GitHub</a></p>
+  </div>
+</div>
+
+<div class="project-container-outer shadow">
+  <div class="project-container-inner">
     <h3>UMN Classroom Finder <span class="label pull-right">Retired</span></h3>
     <figure class="pull-right">
       <a href="/images/projects/scraper.png">
