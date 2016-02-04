@@ -406,12 +406,18 @@ body {
 	}
 }
 .article-wrap {
-	// Dotted line underlines for links
+	// Color and dotted line underlines for links in articles
 	p > a,
 	li > a {
-		border-bottom: 1px dotted lighten(@link-color, 50);
+		border-bottom: 1px dotted lighten(@article-link-color, 50);
 		&:hover {
 			border-bottom-style: solid;
+		}
+		&:link {
+			color: @article-link-color;
+		}
+		&:visited {
+			color: @article-link-color;
 		}
 	}
 	p > a.reversefootnote,
