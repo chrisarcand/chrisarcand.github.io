@@ -1,9 +1,12 @@
 ---
 layout: post
 title: "Introducing Dug"
+modified: 2016-02-11 18:36:21 -0500
 tags: [Programming, GitHub, Ruby]
 description: "Dug is a simple, configurable gem to organize your GitHub notification emails in ways Gmail can't and in an easier-to-maintain way than large, slow Google Apps Scripts."
 ---
+
+**EDIT**: Updated example YAML to match API for 1.0 release
 
 Organizing GitHub notifications has always been annoying to me.
 
@@ -49,35 +52,40 @@ annoying drawbacks and hacks that I'd never remember or want to maintain moving 
 
 So I wrote a gem, and now I have all I want.
 
-![](http://screenshots.chrisarcand.com/permxqkc5.jpg)
+![](http://screenshots.chrisarcand.com/permd0u3k.jpg)
 
 Labeling is controlled by a simple YAML:
 
 ```yaml
 ---
 organizations:
-  - name: rails
-    label: Rails
-  - name: rspec
-    label: RSpec
-    repositories:
-      - name: rspec-expectations
-        label: RSpec/rspec-expectations
-  - ManageIQ
+  rails: Rails
+  rspec: RSpec
+  ManageIQ: ManageIQ
+
+repositories:
+  rspec-expectations: RSpec/rspec-expectations
+  dug: dug
+  dotfiles:
+    - remote: chrisarcand
+      label: My dotfiles
+    - remote: juliancheal
+      label: Julian's dotfiles
+
 reasons:
-  author:
-    label: Participating
-  comment:
-    label: Participating
-  mention:
-    label: Mentioned
-  team_mention:
-    label: Team mention
-  assign:
-    label: Assigned to me
+  author: Participating
+  comment: Participating
+  mention: Mentioned
+  team_mention: Team mention
+  assign: Assigned to me
+
+states:
+  merged: Merged
+  closed: Closed
+  reopened: Reopened
 ```
 
-And it needn't even be _this_ complex - this is just showing the ways you can specify whatever label names you want
+And it needn't even be _this_ complex - this is just showing the flexibility of different features.
 
 It's called Dug, and it's [open source and available on GitHub.][7]
 
@@ -87,8 +95,7 @@ Dug's runner class in any way you see fit (within a web app hook, a Rake task, a
 as an installed gem with a config/yaml file and cron job. That's it. It works marvelously. And it processes messages
 near instantly.
 
-Let me know what you think! Dug needs a few more goodies in the form of body parsing and some more built-ins (like
-"Closed" Issues/PRs), and contributions are always welcome.
+Let me know what you think! And contributions are always welcome. :)
 
 [1]: http://lyzidiamond.com/posts/github-notifications-google-script/
 [2]: https://twitter.com/lyzidiamond
