@@ -13,7 +13,7 @@ gems:
 owner:
   name:           Chris Arcand
   avatar:         avatar.jpeg
-  bio:            "Ruby developer at Red Hat on the ManageIQ/CloudForms team. Orchestral clarinetist. I love me some hockey, hiking, and tasty brews. Made In Minnesota."
+  bio:            "Ruby developer at Red Hat on the ManageIQ core team. I love me some hockey, hiking, and tasty brews. Made In Minnesota."
   email:
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter: chrisarcand
