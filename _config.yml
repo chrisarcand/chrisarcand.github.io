@@ -55,7 +55,7 @@ links:
 timezone:    America/New_York
 future:      true
 highlighter: rouge
-markdown:    redcarpet
+markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
