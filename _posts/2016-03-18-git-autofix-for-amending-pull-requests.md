@@ -46,14 +46,12 @@ it...' is so, so common.
 
 Fortunately, git provides a neat shortcut for `rebase` to amend previous commits called `--autosquash`:
 
-```
-When the commit log message begins with "squash! ..."
-(or "fixup!  ..."), and there is a commit whose title begins with the
-same ..., automatically modify the todo list of rebase -i so that the
-commit marked for squashing comes right after the commit to be
-modified, and change the action of the moved commit from pick to
-squash (or fixup).
-```
+    When the commit log message begins with "squash! ..."
+    (or "fixup!  ..."), and there is a commit whose title begins with the
+    same ..., automatically modify the todo list of rebase -i so that the
+    commit marked for squashing comes right after the commit to be
+    modified, and change the action of the moved commit from pick to
+    squash (or fixup).
 
 What these means is that I have a commit named "Changed stuffs" and apply
 another commit called "fixup! Changed stuffs", running this option will
@@ -76,18 +74,16 @@ two tools I've utilized to make rebasing changes back into a PR (or anything) co
 With these tools you can now do the following, shown in the gif at the
 beginning:
 
-```
-# (Make a change, add the file to your staged changes), then...
+    # (Make a change, add the file to your staged changes), then...
 
-# Commits changes as a fixup for the proper previous commit
-$ git autofixup
+    # Commits changes as a fixup for the proper previous commit
+    $ git autofixup
 
-# (Optionally, keep doing the same thing with other changes...)
-$ git autofixup
+    # (Optionally, keep doing the same thing with other changes...)
+    $ git autofixup
 
-# Now autosquash all the things from your fork point!
-$ git autosquash
-```
+    # Now autosquash all the things from your fork point!
+    $ git autosquash
 
 Done! Quick. Easy. Awesome.
 
