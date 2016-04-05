@@ -14,11 +14,13 @@ to an existing Rails project. Learning in a 'trial by fire' sort of setting with
 a language is a great way to pick something up very quickly. I remember the first time coming across something similar
 to the following:
 
-```ruby
+<figure class="lineno-container">
+{% highlight ruby linenos %}
 def something
   @something ||= Something.new
 end
-```
+{% endhighlight %}
+</figure>
 
 This is probably the most basic and ubiquitous form of [memoization][1] in Ruby. In this case, I was told that with the combination of the
 `||=` operator and Ruby's implicit `return` this means:

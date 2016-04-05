@@ -2,141 +2,87 @@
 layout: post
 title: "Programming Easter Eggs"
 tags: [Ruby, Programming]
-modified: 05-04-2015
-image:
-  feature:
-  credit: 
-  creditlink: 
-comments: 
-share: 
+modified: 04-05-2016
 ---
 
-Perhaps these shouldn't be called Easter Eggs - 'programming novelties'? - but the little additions 
-in projects which don't necessarily need to exist are always satisfying and amusing to me. 
-There are a number of them that my colleagues or I have stumbled upon. Have any additions,
-especially non-Ruby ones? [Let me know][2] and I'll add them to the list. 
+Perhaps these shouldn't be called Easter Eggs - 'programming novelties'? - but the little additions
+in projects which don't necessarily need to exist are always satisfying and amusing to me.
+There are a number of them that my colleagues or I have stumbled upon. Here's a little collection I curated.
 
-###[The 'fourty_two' array accessor in Rails][3]
+The headers link to where the code exists in its project. Have any additions? [Let me know][2] and I'll add them to the list!
 
-  ```ruby
-  # Equal to <tt>self[41]</tt>. Also known as accessing "the reddit".
-  #
-  #   (1..42).to_a.forty_two # => 42
-  def forty_two
-    self[41]
-  end
-  ```
+### [The 'forty_two' array accessor in Rails][3]
 
-###[The '❨╯°□°❩╯︵┻━┻' method in Sidekiq][4]
+<script src="https://gist.github.com/chrisarcand/9da0dee4fab8d34173036b7416098744.js?file=rails_forty_two.rb"></script>
+<noscript>{{ site.gist_js_warning | markdownify }}</noscript>
 
-  ```ruby
-  def self.❨╯°□°❩╯︵┻━┻
-    puts "Calm down, bro"
-  end
+### [The '❨╯°□°❩╯︵┻━┻' method in Sidekiq][4]
 
-  describe "❨╯°□°❩╯︵┻━┻" do
-    before { $stdout = StringIO.new }
-    after  { $stdout = STDOUT }
+I'm pretty certain this one is my favorite.
 
-    it "allows angry developers to express their emotional constitution and remedies it" do
-      Sidekiq.❨╯°□°❩╯︵┻━┻
-      assert_equal "Calm down, bro\n", $stdout.string
-    end
-  end
-  ```
-###[The 'wtf!?!?' method in Pry][5]
+<script src="https://gist.github.com/chrisarcand/9da0dee4fab8d34173036b7416098744.js?file=sidekiq_table_flip.rb"></script>
+<noscript>{{ site.gist_js_warning | markdownify }}</noscript>
 
-  ```ruby
-  class Pry
-    class Command::Wtf < Pry::ClassCommand
-      match(/wtf([?!]*)/)
-      group 'Context'
-      description 'Show the backtrace of the most recent exception.'
-      options :listing => 'wtf?'
+### [The 'wtf!?!?' method in Pry][5]
 
-      banner <<-'BANNER'
-        Usage: wtf[?|!]
+<script src="https://gist.github.com/chrisarcand/9da0dee4fab8d34173036b7416098744.js?file=pry_wtf.rb"></script>
+<noscript>{{ site.gist_js_warning | markdownify }}</noscript>
 
-        Show's a few lines of the backtrace of the most recent exception (also available
-        as `_ex_.backtrace`). If you want to see more lines, add more question marks or
-        exclamation marks.
+### ['nyan-cat', 'get-naked', and poems in Pry][9]
 
-        wtf?
-        wtf?!???!?!?
+_From Enrico Genauck (@enricogenauck), Added 5/4/15_
 
-        # To see the entire backtrace, pass the `-v` or `--verbose` flag.
-        wtf -v
-      BANNER
-    ...
-  ```
-  \* I would argue this _needs_ to exist.
+The `pry` gem also includes a [dedicated file to Easter Eggs][9] with nyan cat
+and a few text snippets from Jermaine Stewart, T.S. Eliot, and Leonard Cohen,
+and Fernando Pessoa.
 
-###['nyan-cat', 'get-naked', and poems in Pry][9]
-  
-  _From Enrico Genauck (@enricogenauck), Added 5/4/15_
+### The 'isUserAMonkey' function in the android.app.ActivityManager package
 
-The `pry` gem also includes a [dedicated file to Easter Eggs][9] with nyan cat and
-a few text snippets from Jermaine Stewart, T.S. Eliot, and Leonard Cohen, and Fernando Pessoa.
+_From Ian Ehlert (@ehlertij)_
 
-###The 'isUserAMonkey' function in the android.app.ActivityManager package
-  
-  _Submitted by Ian Ehlert_
+<script src="https://gist.github.com/chrisarcand/9da0dee4fab8d34173036b7416098744.js?file=android_isUserAMonkey.java"></script>
+<noscript>{{ site.gist_js_warning | markdownify }}</noscript>
 
-  ```bash
-  public static boolean isUserAMonkey ()   Since: API Level 8
-
-  Returns "true" if the user interface is currently being messed with by a monkey.
-  ```
-
-  I'm not sure if this is all that strange considering the Monkey is a well documented, actual
-  command line tool to stress test your UI. But that's part of the much larger joke.
+I'm not sure if this is all that strange considering the Monkey is a well documented, actual
+command line tool to stress test your UI. But that's part of the much larger joke.
 
 # Honorable Mentions
 
-###[The 'fortnight' method in Rails][6]
+### [The 'fortnight' method in Rails][6]
 
-  I don't know if it was really intended to be a novelty or taken seriously, but I find it amusing.
-  And yes, I do actually try and use this - in tests, anyway.
+<script src="https://gist.github.com/chrisarcand/9da0dee4fab8d34173036b7416098744.js?file=rails_fortnight.rb"></script>
+<noscript>{{ site.gist_js_warning | markdownify }}</noscript>
 
-  ```ruby
-  def fortnights
-    ActiveSupport::Duration.new(self * 2.weeks, [[:days, self * 14]])
-  end
-  alias :fortnight :fortnights
-  ```
-###[The 'seppuku' command in RVM][7]
+I don't know if it was really intended to be a novelty or taken seriously, but I find it amusing.
+And yes, I do actually try and use this - in tests, anyway.
 
-  Wayne Seguin added this as an alias for `implode`. The change reads "Added 'rvm seppuku' in honor
-  of tsykoduk who can't spell so it saved his life."
+### [The 'seppuku' command in RVM][7]
 
-  ```ruby
-  implode|seppuku)
-    source "$rvm_scripts_path/functions/implode"
-    __rvm_implode
-    ;;
-  ```
+Wayne Seguin added this as an alias for `implode`. The change reads "Added 'rvm seppuku' in honor
+of tsykoduk who can't spell so it saved his life."
 
-  I especially enjoy the `rvm_log "Hai! Removing $rvm_path"`
+<script src="https://gist.github.com/chrisarcand/9da0dee4fab8d34173036b7416098744.js?file=rvm_seppuku.rb"></script>
+<noscript>{{ site.gist_js_warning | markdownify }}</noscript>
 
-###[The 'question' and 'answer' commands in RVM][8]
+I especially enjoy the `rvm_log "Hai! Removing $rvm_path"`
 
-  These commands seemed to have been removed since they were added in v0.1.30
+### [The 'question' and 'answer' commands in RVM][8]
 
-  ```ruby
-  answer) __rvm_Answer_to_the_Ultimate_Question_of_Life_the_Universe_and_Everything ; result=42 ;;
-  question) __rvm_ultimate_question ; result=42 ;;
-  ```
+These commands seemed to have been removed since they were added in v0.1.30
 
-  More entertaining is the bugfix for these commands that shortly followed:
+<script src="https://gist.github.com/chrisarcand/9da0dee4fab8d34173036b7416098744.js?file=rvm_question_answer.rb"></script>
+<noscript>{{ site.gist_js_warning | markdownify }}</noscript>
 
-  > Bugfix: 'rvm answer' now uses perl, since the universe is written in Perl. As it is obvious... the universe has bugs, and perl is the only language that can have bugs not even god could sort out.
+More entertaining is the bugfix for these commands that shortly followed:
+
+> Bugfix: 'rvm answer' now uses perl, since the universe is written in Perl. As it is obvious... the universe has bugs, and perl is the only language that can have bugs not even god could sort out.
 
 [1]: http://www.i-programmer.info/history/computer-languages/2340-coded-easter-eggs.html
 [2]: http://www.twitter.com/chrisarcand
-[3]: https://github.com/rails/rails/blob/master/activesupport/lib/active_support/core_ext/array/access.rb#L57
-[4]: https://github.com/mperham/sidekiq/blob/master/lib/sidekiq.rb#L31
-[5]: https://github.com/pry/pry/blob/master/lib/pry/commands/wtf.rb
-[6]: https://github.com/rails/rails/blob/master/activesupport/lib/active_support/core_ext/numeric/time.rb#L59
-[7]: https://github.com/wayneeseguin/rvm/blob/master/scripts/cli#L873
-[8]: https://github.com/wayneeseguin/rvm/blob/0.1.30/scripts/cli#L417
-[9]: https://github.com/pry/pry/blob/master/lib/pry/commands/easter_eggs.rb
+[3]: https://github.com/rails/rails/blob/3108e0809f36eb1afebd70211335435fdc600655/activesupport/lib/active_support/core_ext/array/access.rb#L70-L75
+[4]: https://github.com/mperham/sidekiq/blob/cef8f2ec4db65032c49f3b5e704974fc90bffe6b/lib/sidekiq.rb#L48-L50
+[5]: https://github.com/pry/pry/blob/f5c97cac103a9f04b854ed5b117a8cc27c7e8dd6/lib/pry/commands/wtf.rb
+[6]: https://github.com/rails/rails/blob/3108e0809f36eb1afebd70211335435fdc600655/activesupport/lib/active_support/core_ext/numeric/time.rb#L58-L64
+[7]: https://github.com/rvm/rvm/blob/93842ee4c23778af4e64e3436b8bb901b61acdb2/scripts/cli#L886-L889
+[8]: https://github.com/rvm/rvm/blob/0a7a2e0c7001c191d17132569eb7499c619fd7f6/scripts/cli#L417-L418
+[9]: https://github.com/pry/pry/blob/f5c97cac103a9f04b854ed5b117a8cc27c7e8dd6/lib/pry/commands/easter_eggs.rb

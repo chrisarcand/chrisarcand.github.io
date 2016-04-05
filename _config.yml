@@ -1,10 +1,12 @@
 title:            Chris Arcand
 description:      "The online musings of Chris Arcand, software developer at Red Hat"
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://chrisarcand.com
-# url:              http://localhost:4000
+# url:              http://chrisarcand.com
+url:              http://localhost:4000
 site_name:        chrisarcand.com
 disqus_shortname:
+
+gist_js_warning: "**Oops! You have Javascript disabled.** I use GitHub Gists to show code on my blog, which regrettably requires JavaScript. I only apologize if you're using an RSS reader :( Please visit the page with Javascript enabled!"
 
 gems:
   - jekyll-sitemap
