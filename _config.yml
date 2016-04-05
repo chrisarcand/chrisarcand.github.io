@@ -1,8 +1,8 @@
 title:            Chris Arcand
 description:      "The online musings of Chris Arcand, software developer at Red Hat"
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-# url:              http://chrisarcand.com
-url:              http://localhost:4000
+url:              http://chrisarcand.com
+# url:              http://localhost:4000
 site_name:        chrisarcand.com
 disqus_shortname:
 
