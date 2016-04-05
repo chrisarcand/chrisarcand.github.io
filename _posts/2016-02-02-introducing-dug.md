@@ -56,34 +56,7 @@ So I wrote a gem, and now I have all I want.
 
 Labeling is controlled by a simple YAML:
 
-```yaml
----
-organizations:
-  rails: Rails
-  rspec: RSpec
-  ManageIQ: ManageIQ
-
-repositories:
-  rspec-expectations: RSpec/rspec-expectations
-  dug: dug
-  dotfiles:
-    - remote: chrisarcand
-      label: My dotfiles
-    - remote: juliancheal
-      label: Julian's dotfiles
-
-reasons:
-  author: Participating
-  comment: Participating
-  mention: Mentioned
-  team_mention: Team mention
-  assign: Assigned to me
-
-states:
-  merged: Merged
-  closed: Closed
-  reopened: Reopened
-```
+<script src="https://gist.github.com/chrisarcand/55835d465e74ff8ec7ca166b670a00cd.js"></script>
 
 And it needn't even be _this_ complex - this is just showing the flexibility of different features.
 
