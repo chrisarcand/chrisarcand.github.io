@@ -61,7 +61,7 @@ And yes, I do actually try and use this - in tests, anyway.
 Wayne Seguin added this as an alias for `implode`. The change reads "Added 'rvm seppuku' in honor
 of tsykoduk who can't spell so it saved his life."
 
-<script src="https://gist.github.com/chrisarcand/9da0dee4fab8d34173036b7416098744.js?file=rvm_seppuku.bash"></script>
+<script src="https://gist.github.com/chrisarcand/9da0dee4fab8d34173036b7416098744.js?file=rvm_implode.bash"></script>
 <noscript>{{ site.gist_js_warning | markdownify }}</noscript>
 
 I especially enjoy the `rvm_log "Hai! Removing $rvm_path"`
