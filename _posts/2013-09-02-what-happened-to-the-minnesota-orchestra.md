@@ -1,7 +1,7 @@
 ---
   layout: post
-  title: "\"What happened to the orchestra?\""
-  tags: ["narrative", "minnesotaorchestra"]
+  title: "'What happened to the orchestra?'"
+  tags: [Misc]
 ---
 
 "What happened to the orchestra?" 

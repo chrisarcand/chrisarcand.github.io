@@ -1,7 +1,7 @@
 ---
   layout: post
   title: "Using Git in Your Gemspec"
-  tags: [Ruby]
+  tags: [Ruby,Git]
   description: "Over the past few weeks I've spent a lot of time working on a few of the modules we use here at Sport Ngin - mostly Ruby gems such as Opsicle, our OpsWorks CLI gem. As I've acquainted myself with architecting and testing gems locally, the use of git in gemspecs caught my attention."
 ---
 

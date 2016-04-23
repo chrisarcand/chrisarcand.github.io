@@ -1,0 +1,12 @@
+/* TEAM */
+Your title: Chris Arcand
+Site: www.chrisarcand.com
+Twitter: @chrisarcand
+Location: Washington, D.C.
+
+/* THANKS */
+Name: Josh Gerdes
+
+/* SITE */
+Standards: HTML5, CSS3
+Components: Jekyll, GitHub pages

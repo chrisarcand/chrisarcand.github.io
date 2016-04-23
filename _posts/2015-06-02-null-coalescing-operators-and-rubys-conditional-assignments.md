@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Null Coalescing Operators and Ruby's Conditional Assignments"
-tags: [Ruby, Programming]
+tags: [Ruby]
 image:
   feature:
   credit:
@@ -14,13 +14,11 @@ to an existing Rails project. Learning in a 'trial by fire' sort of setting with
 a language is a great way to pick something up very quickly. I remember the first time coming across something similar
 to the following:
 
-<figure class="lineno-container">
-{% highlight ruby linenos %}
+```ruby
 def something
   @something ||= Something.new
 end
-{% endhighlight %}
-</figure>
+```
 
 This is probably the most basic and ubiquitous form of [memoization][1] in Ruby. In this case, I was told that with the combination of the
 `||=` operator and Ruby's implicit `return` this means:
@@ -50,7 +48,7 @@ A true [null coalescing operator][2] is "a binary operator that is part of the s
 expression" where you can both specify a value to be evaluated which is returned if not null and a value to be returned
 if the first value _is_ null. That mouthful can be seen in this pseudo-code:
 
-```
+```perl
 /* Given two arguments... */
 
 if $first_argument is NOT NULL

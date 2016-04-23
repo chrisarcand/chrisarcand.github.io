@@ -11,6 +11,6 @@ anyway.
 This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported
 License](http://creativecommons.org/licenses/by-sa/3.0/legalcode). All viewpoints expressed are my own.
 
-The site theme is a modified version of [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes), which is free and
-open source software distributed under the [GNU General Public License](http://mmistakes.github.io/minimal-mistakes/LICENSE) version 2 or later.
+The site theme is a modified version of [Jekyll-Uno](https://github.com/joshgerdes/jekyll-uno), which is free and
+open source software distributed under the [MIT License](https://github.com/joshgerdes/jekyll-uno/blob/d48781fadc06a85bfe92aa36a59debe6ca1ad3c0/LICENSE).
 

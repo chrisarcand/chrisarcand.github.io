@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "Programming Easter Eggs"
-tags: [Ruby, Programming]
+tags: [Ruby]
 modified: 04-05-2016
+description: "Perhaps these shouldn't be called Easter Eggs - 'programming novelties'? - but the little additions
+in projects which don't necessarily need to exist are always satisfying and amusing to me.
+There are a number of them that my colleagues or I have stumbled upon. Here's a little collection I curated."
 ---
 
 Perhaps these shouldn't be called Easter Eggs - 'programming novelties'? - but the little additions

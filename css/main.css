@@ -1,0 +1,90 @@
+@import url(uno.css);
+@import url(monokai.css);
+
+/* Modifications */
+
+pre.highlight,
+.highlight pre {
+  padding: 10px;
+}
+
+pre.highlight code,
+.highlight pre code {
+  white-space: pre-wrap;
+}
+
+h1 {
+  letter-spacing: 0;
+}
+
+.btn, 
+.navigation__item a {
+  margin: 5px 0;
+  white-space: nowrap;
+}
+
+.panel-cover__location {
+  margin-top: 15px;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.pagination__page-number {
+  display: inline-block;
+  padding: 10px;
+}
+
+.categories a,
+.tags a {
+  border: 1px solid #e25440;
+  border-radius: 20px;
+  color: #e25440;
+  display: inline-block;
+  font-size: 12px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  text-shadow: none;
+  white-space: nowrap;
+}
+
+.post-meta__tags {
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.footer {
+  padding: 2em;
+}
+
+.year-header {
+  padding-bottom: .5em;
+  margin: 1em 0;
+  font-size: 28px;
+  font-size: 1.75rem;
+  border-bottom: 1px solid #c3c3c3;
+}
+
+.footer__copyright {
+  line-height: 18px;
+}
+
+blockquote {
+  padding: 2em;
+}
+
+blockquote p {
+  font-size: .9em;
+}
+
+.navigation--social {
+  margin-left: 0;
+}
+
+.user-image {
+  margin-bottom: 1.2em;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #fff;
+  border-radius:100%;
+}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Manually setting languages on GitHub with Linguist's (Improved) Vim Modeline Detection"
-tags: [Vim, Programming, GitHub]
+tags: [Vim, Git]
 description: "Useful even for non-Vim users: You can use Vim modelines to manually set the programming language for a file on GitHub (syntax highlighting, stats) - now with more flexible modeline syntax."
 ---
 
@@ -50,6 +50,7 @@ it's acceptable modelines:
   one instead.
 
 <a name="tldr"></a>
+
 ### But you can haz all Vim modelines, now
 
 I _love_ regular expressions, so I hunted down where Linguist does this modeline parsing and [submitted a patch that's

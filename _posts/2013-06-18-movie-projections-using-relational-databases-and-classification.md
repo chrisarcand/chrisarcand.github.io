@@ -1,5 +1,6 @@
 ---
   layout: post
+  tags: [Misc]
   title: "Movie Projections using Relational Databases and Classification"
 ---
 

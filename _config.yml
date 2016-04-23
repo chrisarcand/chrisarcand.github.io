@@ -1,80 +1,41 @@
-title:            Chris Arcand
-description:      "The online musings of Chris Arcand, software developer at Red Hat"
-# Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://chrisarcand.com
-# url:              http://localhost:4000
-site_name:        chrisarcand.com
-disqus_shortname:
+# Site settings
+title:                 Chris Arcand
+description:           'Ruby developer at Red Hat on the ManageIQ core team. I love me some hockey, hiking, and tasty brews. Made In Minnesota.'
+location:              Washington, D.C.
+# url:                   'http://chrisarcand.com'
+url:                   'http://localhost:4000'
+baseurl:               '/'
+google_analytics:      'UA-41741905-2'
+
+author:
+  name:                Chris Arcand
+  email:               chris@chrisarcand.com
+  twitter_username:    chrisarcand
+  github_username:     chrisarcand
+  linkedin_username:   chrisarcand
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
 gist_js_warning: "**Oops! You have Javascript disabled.** I use GitHub Gists to show code on my blog, which regrettably requires JavaScript. I only apologize if you're using an RSS reader :( Please visit the page with Javascript enabled!"
 
-gems:
-  - jekyll-sitemap
+# Build settings
+destination:           _site
+paginate:              6
+permalink:             /:categories/:title/
+markdown:              kramdown
+highlighter:           rouge
+timezone:              America/New_York
 
-# Owner/author information
-owner:
-  name:           Chris Arcand
-  avatar:         avatar_small.jpeg
-  bio:            "Ruby developer at Red Hat on the ManageIQ core team. I love me some hockey, hiking, and tasty brews. Made In Minnesota."
-  email:
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: chrisarcand
-  facebook:
-  github: chrisarcand
-  stackoverflow:
-  linkedin: chrisarcand
-  instagram:
-  lastfm:
-  tumblr:
-  pinterest:
-  foursquare:
-  steam:
-  dribbble:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:
+kramdown:
+  syntax_highlighter:  rouge
+  input:               GFM # Github Flavored Markdown
+  hard_wrap:           false # do not replace newlines by <br>s
 
-# Analytics and webmaster tools stuff goes here
-google_analytics: "UA-41741905-2"
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: About
-    url: /about/
-  - title: Posts
-    url: /posts/
-  - title: Projects
-    url: /projects/
-  - title: Talks
-    url: /talks/
-  - title: Hire Me!
-    url: /forhire
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
-highlighter: rouge
-markdown:    kramdown
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
-
-# kramdown:
-#   auto_ids: true
-#   footnote_nr: 1
-#   entity_output: as_char
-#   toc_levels: 1..6
-#   use_coderay: false
-
-#   coderay:
-#     coderay_line_numbers:
-#     coderay_line_numbers_start: 1
-#     coderay_tab_width: 4
-#     coderay_bold_every: 10
-#     coderay_css: class
-
-include: [".htaccess"]
-exclude: ["theme-setup.md", "lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+gems:                  ['jekyll-paginate']
+exclude:               ['README.md', 'Gemfile', 'Gemfile.lock', 'src']

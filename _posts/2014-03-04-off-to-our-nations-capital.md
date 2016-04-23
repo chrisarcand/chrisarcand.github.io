@@ -1,7 +1,7 @@
 ---
   layout: post
   title: "Off to Our Nation's Capital"
-  tags: []
+  tags: [Misc]
   preview: "My wife Emily was accepted into the PA program at George Washington University in Washington, D.C. - and we're excited to say that she has accepted and we'll be relocating out east towards the end of April!"
 ---
 

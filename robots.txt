@@ -1,0 +1,3 @@
+﻿User-agent: *
+Sitemap: http://chrisarcand.com/sitemap.xml
+Disallow: /ghost/

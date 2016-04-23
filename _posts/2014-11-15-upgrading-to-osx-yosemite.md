@@ -2,7 +2,7 @@
 layout: post
 title: "Upgrading to OSX Yosemite"
 modified: 2014-11-15 19:52:52 -0600
-tags: [ruby,howto,osx]
+tags: [Misc]
 image:
   feature: posts/yosemite-os-wallpaper.jpg
   credit: 

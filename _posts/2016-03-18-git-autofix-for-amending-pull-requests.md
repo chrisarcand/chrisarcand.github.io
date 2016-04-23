@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Git autofix for amending Pull Requests"
-tags: [Programming, GitHub]
+tags: [Git]
 description: "A quick share of two custom commands for instantly rebasing edits back into their proper commits in your feature branch."
 ---
 
