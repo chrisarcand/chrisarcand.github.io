@@ -64,10 +64,10 @@ the two styles.
 
 There are some actual differences, though. Oleg Raisky and Steve Kirkendall sum up the main differences nicely:
 
-> * Perl doesn't require backslashes before most of its operators. Personally, I think it makes regexps more readable - the less backlashes, the better.
-> * Perl allows you to convert any quantifier into a non-greedy version by adding an extra ? after it.
-> * Perl supports a lots of weird options that can be appended to the regexp, or even embedded in it.
-> * You can also embed variable names in a Perl regular expression. Perl replaces the name with its value; this is called "variable interpolation".
+* Perl doesn't require backslashes before most of its operators. Personally, I think it makes regexps more readable - the less backlashes, the better.
+* Perl allows you to convert any quantifier into a non-greedy version by adding an extra ? after it.
+* Perl supports a lots of weird options that can be appended to the regexp, or even embedded in it.
+* You can also embed variable names in a Perl regular expression. Perl replaces the name with its value; this is called "variable interpolation".
 
 ### In summary
 I'm very comfortable with PCRE, and when I'm trying to write out an extremely long or complex expression, I don't want to have to think about

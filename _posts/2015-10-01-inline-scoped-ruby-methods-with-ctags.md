@@ -13,23 +13,23 @@ Starting in Ruby 2.1, [defining a method returns the name of the method as a sym
 elegant-looking (or at least more commonly seen in other languages like C# or Java) code:
 
 ```ruby
-  protected def some_protected_method
-    # ...
-  end
+protected def some_protected_method
+  # ...
+end
 
-  private def some_private_method
-    # ...
-  end
+private def some_private_method
+  # ...
+end
 ```
 
 At [Sport Ngin][4] we've been using a more explicit convention in declaring a method private after each
 and every private method definition for some time:
 
 ```ruby
-  def some_private_method
-    # ...
-  end
-  private :some_private_method
+def some_private_method
+  # ...
+end
+private :some_private_method
 ```
 
 There are many arguments for and against this and I won't go over it here. I personally prefer

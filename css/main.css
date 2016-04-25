@@ -1,17 +1,7 @@
 @import url(uno.css);
-@import url(monokai.css);
+@import url(code-syntax.css);
 
 /* Modifications */
-
-pre.highlight,
-.highlight pre {
-  padding: 10px;
-}
-
-pre.highlight code,
-.highlight pre code {
-  white-space: pre-wrap;
-}
 
 h1 {
   letter-spacing: 0;

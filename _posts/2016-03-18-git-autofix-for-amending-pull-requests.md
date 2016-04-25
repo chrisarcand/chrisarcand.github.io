@@ -74,16 +74,18 @@ two tools I've utilized to make rebasing changes back into a PR (or anything) co
 With these tools you can now do the following, shown in the gif at the
 beginning:
 
-    # (Make a change, add the file to your staged changes), then...
+```bash
+# (Make a change, add the file to your staged changes), then...
 
-    # Commits changes as a fixup for the proper previous commit
-    $ git autofixup
+# Commits changes as a fixup for the proper previous commit
+$ git autofixup
 
-    # (Optionally, keep doing the same thing with other changes...)
-    $ git autofixup
+# (Optionally, keep doing the same thing with other changes...)
+$ git autofixup
 
-    # Now autosquash all the things from your fork point!
-    $ git autosquash
+# Now autosquash all the things from your fork point!
+$ git autosquash
+```
 
 Done! Quick. Easy. Awesome.
 
