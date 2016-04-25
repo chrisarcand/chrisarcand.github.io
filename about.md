@@ -4,18 +4,18 @@ layout: page
 permalink: /about/
 ---
 
-I'm a Ruby developer at [Red Hat][1] on the [ManageIQ][2] core team. ManageIQ
-is the open source cloud management platform beyond [Red Hat CloudForms][3].
+I'm a Ruby developer at [Red Hat][1]{:target="_blank"} on the [ManageIQ][2]{:target="_blank"} core team. ManageIQ
+is the open source cloud management platform beyond [Red Hat CloudForms][3]{:target="_blank"}.
 I've enjoyed working remotely since 2014 and currently reside in the
 Washington, DC area.
 
 I like working with the full web stack and [contributing to the open source
-community][5] - I'm especially interested in improving developer oriented tooling.
+community][5]{:target="_blank"} - I'm especially interested in improving developer oriented tooling.
 Outside of programming I love backpacking, climbing, hockey, and
 performing/listening to music. Above all I simply aspire to be a good human
 being.
 
-<a href="/CPA_resume.pdf" target="_blank">Full resumé</a>
+[Full resumé][6]{:target="_blank"}
 
 ---
 
@@ -54,3 +54,4 @@ Hara and Craig Kirchoff. Using Buffett-Crampon clarinets, Mr. Arcand plays exclu
 [3]: https://www.redhat.com/en/technologies/cloud-computing/cloudforms
 [4]: http://manageiq.org/community/team/
 [5]: https://github.com/chrisarcand
+[6]: https://chrisarcand.com/CPA_resume.pdf
