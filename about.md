@@ -17,7 +17,7 @@ being.
 
 [Full resumé][6]{:target="_blank"}
 
----
+<hr class="post-list__divider">
 
 I also happen to be a former orchestral clarinetist. I still try to pick it up
 as much as I can but admittedly have devoted more time to programming, outdoor
