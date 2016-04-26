@@ -13,6 +13,12 @@ h1 {
   white-space: nowrap;
 }
 
+/* Older/Newer post pagination buttons */
+.older,
+.newer {
+  display: inline-block;
+}
+
 .panel-cover__location {
   margin-top: 15px;
   font-style: italic;
