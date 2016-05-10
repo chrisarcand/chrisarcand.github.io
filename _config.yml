@@ -37,5 +37,11 @@ kramdown:
   input:               GFM # Github Flavored Markdown
   hard_wrap:           false # do not replace newlines by <br>s
 
-gems:                  ['jekyll-paginate']
-exclude:               ['README.md', 'Gemfile', 'Gemfile.lock', 'src']
+gems:
+  - jekyll-paginate
+  - jekyll-seo-tag
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - src
