@@ -39,7 +39,7 @@ At these events I've met the _best_ kind of people. It's a tightly knit,
 friendly, completely awesome group of people that unsurprisingly has a number
 of big names you'd recognize from the greater Ruby community.
 
-There are two many names to _truly_ thank here, but I'd like to especially
+There are too many names to _truly_ thank here, but I'd like to especially
 thank [Chris Sexton][14] and [Sean Marcia][15] (Arlington Ruby, Ruby for Good, and RetroRuby
 organizers), [Geoff Harcourt][21] (aka [Thoughtbot][12]'s current [one-man band in DC][11],
 DCRUG co-organizer), and [a][16], [number][17], [of][18], [engineers][19], at [CustomInk][13] too long to type
