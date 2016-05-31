@@ -7,7 +7,7 @@ permalink: /about/
 I'm a Ruby developer at [Red Hat][1]{:target="_blank"} on the [ManageIQ][2]{:target="_blank"} core team. ManageIQ
 is the open source cloud management platform beyond [Red Hat CloudForms][3]{:target="_blank"}.
 I've enjoyed working remotely since 2014 and currently reside in the
-Washington, DC area.
+Minneapolis/St. Paul area.
 
 I like working with the full web stack and [contributing to the open source
 community][5]{:target="_blank"} - I'm especially interested in improving developer oriented tooling.

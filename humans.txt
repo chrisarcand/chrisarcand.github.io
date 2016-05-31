@@ -2,7 +2,7 @@
 Your title: Chris Arcand
 Site: www.chrisarcand.com
 Twitter: @chrisarcand
-Location: Washington, D.C.
+Location: Minneapolis, MN
 
 /* THANKS */
 Name: Josh Gerdes

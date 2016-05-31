@@ -1,7 +1,7 @@
 # Site settings
 title:                 Chris Arcand
-description:           'Ruby developer at Red Hat on the open source ManageIQ project. Spends too much money on keyboards and backpacking gear. Made In Minnesota.'
-location:              Washington, D.C.
+description:           'Ruby developer at Red Hat on the open source ManageIQ project. Spends too much money on keyboards and backpacking gear.'
+location:              Minneapolis, MN
 url:                   'https://chrisarcand.com'
 # url:                   'http://localhost:4000'
 baseurl:               '/'
