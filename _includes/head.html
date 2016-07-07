@@ -15,7 +15,7 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@chrisarcand" />
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if post.description %}{{ post.description }}{% elsif post.content %}{{ post.content | strip_html | truncatewords: 100 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.content %}{{ page.content | strip_html | truncatewords: 100 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:image" content="https://chrisarcand.com/images/avatar_small.jpeg" />
 
   <meta property="og:type" content="article">
