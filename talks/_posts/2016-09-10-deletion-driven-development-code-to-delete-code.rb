@@ -1,7 +1,7 @@
 ---
   layout: talk
   title: "Deletion Driven Development: Code to delete code!"
-  presented_to: "RubyKaigi 2016
+  presented_to: "RubyKaigi 2016"
   tags: [Talks, Ruby]
 ---
 
