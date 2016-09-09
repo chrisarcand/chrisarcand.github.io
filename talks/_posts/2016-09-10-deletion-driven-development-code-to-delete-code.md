@@ -3,7 +3,7 @@
   title: "Deletion Driven Development: Code to delete code!"
   presented_to: "RubyKaigi 2016"
   tags: [Talks, Ruby]
-  description: "A talk about building a tool to find deletable Ruby code, presented to RubyKaigi 2016 in Kyoto, Japan.
+  description: "A talk about building a static analysis tool to find deletable Ruby code, presented to RubyKaigi 2016 in Kyoto, Japan."
 ---
 
 Slides will be available after my presentation!
