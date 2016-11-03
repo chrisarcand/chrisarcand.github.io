@@ -49,6 +49,15 @@ _From Ian Ehlert (@ehlertij)_
 I'm not sure if this is all that strange considering the Monkey is a well documented, actual
 command line tool to stress test your UI. But that's part of the much larger joke.
 
+### [The 'I_AM_THE_DESTROYER!' method in Paranoia (acts_as_paranoid rewrite)][10]
+
+_From Jason Fry (@Fryguy9)_
+
+<script src="https://gist.github.com/chrisarcand/9da0dee4fab8d34173036b7416098744.js?file=paranoia_i_am_the_destroyer.rb"></script>
+<noscript>{{ site.gist_js_warning | markdownify }}</noscript>
+
+The TODO is probably the funniest part, to be honest XD
+
 # Honorable Mentions
 
 ### [The 'fortnight' method in Rails][6]
@@ -89,3 +98,4 @@ More entertaining is the bugfix for these commands that shortly followed:
 [7]: https://github.com/rvm/rvm/blob/93842ee4c23778af4e64e3436b8bb901b61acdb2/scripts/cli#L886-L889
 [8]: https://github.com/rvm/rvm/blob/0a7a2e0c7001c191d17132569eb7499c619fd7f6/scripts/cli#L417-L418
 [9]: https://github.com/pry/pry/blob/f5c97cac103a9f04b854ed5b117a8cc27c7e8dd6/lib/pry/commands/easter_eggs.rb
+[10]: https://github.com/rubysherpas/paranoia/blob/b29bc4dd33aa614eff920122594cc2f9cf88272a/lib/paranoia.rb#L236-L245
