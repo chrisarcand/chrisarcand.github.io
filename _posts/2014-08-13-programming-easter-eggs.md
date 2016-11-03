@@ -58,7 +58,7 @@ _From Jason Fry (@Fryguy9)_
 
 The TODO is probably the funniest part, to be honest XD
 
-# Honorable Mentions
+## Honorable Mentions
 
 ### [The 'fortnight' method in Rails][6]
 

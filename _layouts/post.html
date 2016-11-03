@@ -24,3 +24,9 @@ layout: default
   {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
 </article>
 {% if page.comments != false %}{% include disqus.html %}{% endif %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
+<script>
+   anchors.add('h2, h3, h4, h5, h6');
+</script>
+
