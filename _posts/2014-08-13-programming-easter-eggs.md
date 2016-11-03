@@ -51,7 +51,7 @@ command line tool to stress test your UI. But that's part of the much larger jok
 
 ### [The 'I_AM_THE_DESTROYER!' method in Paranoia (acts_as_paranoid rewrite)][10]
 
-_From Jason Fry (@Fryguy9)_
+_From Jason Frey (@Fryguy9)_
 
 <script src="https://gist.github.com/chrisarcand/9da0dee4fab8d34173036b7416098744.js?file=paranoia_i_am_the_destroyer.rb"></script>
 <noscript>{{ site.gist_js_warning | markdownify }}</noscript>
