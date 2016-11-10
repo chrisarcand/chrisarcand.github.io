@@ -7,7 +7,7 @@
 
 A talk about building a static analysis tool to find deletable Ruby code.
 
-<h4>Video (RubyKaigi 2016 | Kyoto, Japan</h4>
+<h4>Video (RubyKaigi 2016 | Kyoto, Japan)</h4>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UlfyX8zRVc8" frameborder="0" allowfullscreen></iframe>
 
 <h4>Slides (RubyKaigi edition)</h4>
