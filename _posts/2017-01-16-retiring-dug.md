@@ -27,7 +27,7 @@ what I really wanted was a more native experience outside of the shackles of
 email. I wasn't really daring enough to spend the time to write such a project
 myself, however.
 
-Somebody else was! Last December, [Andrew Nesbitt](https://github.com/andrew)
+Somebody else was! Last month, [Andrew Nesbitt](https://github.com/andrew)
 released what would soon be known as
 [Octobox](https://github.com/octobox/octobox), an open source Rails application
 that organizes your notifications using the Github Notifications API directly.
