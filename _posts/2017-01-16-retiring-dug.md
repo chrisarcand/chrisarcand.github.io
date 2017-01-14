@@ -2,7 +2,7 @@
 layout: post
 title: "Retiring Dug; Hello Octobox!"
 tags: [Ruby, Releases]
-description: "I'm retiring my Dug gem for Github notifications, preferring to contribute to Octobox instead."
+description: "I'm retiring my gem for Github notifications, preferring to contribute to Octobox instead."
 ---
 
 Like many open source maintainers, I have always been frustrated by the lack of
@@ -11,9 +11,9 @@ many different projects and organizations but there just aren't good ways to
 organize so many subscriptions. On top of that, the
 [ManageIQ](https://github.com/ManageIQ/manageiq) project *alone* has so many
 pull requests and issues filed against it in a given day (about 3x more than
-[rails/rails](https://github.com/rails/rails), if you're more familiar) that
-following ManageIQ/manageiq alone is simply too many notifications to
-effectively browse.
+[Ruby on Rails](https://github.com/rails/rails), if you're more familiar) that
+following ManageIQ/manageiq is simply too many notifications to
+effectively browse and organize on Github.
 
 Most people (I think) use emailed notifications (typically with Gmail) as a
 replacement. I wanted a way to manage that further. "Use Google Apps Scripts",
