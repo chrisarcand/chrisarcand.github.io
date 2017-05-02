@@ -1,0 +1,115 @@
+---
+layout: post
+title: "Balance"
+tags: [Misc]
+description: "Having something that grounds you and doesn't involve staring at a liquid crystal display whatsoever is vital to feeling balanced in day-to-day life."
+---
+
+When I was young, I never understood why my dad liked splitting and burning
+firewood so much.
+
+Every summer, my brother and I would play our parts.  We'd haul large logs cut
+by my dad's chainsaw from some fallen tree in the area (with permission, of
+course) in his pickup truck to our backyard. Then we'd split them by axe and
+hammer and stack the pieces at the bottom of the hill to season. Lastly, we'd
+take a previous years' stash from the other side of our wood stack and place
+them in a large red wheelbarrow and haul them up the hill to then re-stack in
+neat piles against the side of the house next to the patio door for the coming
+winter.
+
+When the extreme Minnesotan cold set in, my dad would then burn a
+fire nearly every evening (and sometimes, morning) in the wood burning stove to
+heat the house, just needing to lean out the patio door for the season's wood
+supply.
+
+Almost all of my friend's families either didn't bother utilizing their
+fireplace (you could just turn up the furnace, of course) or had gas ones. With
+the latter you could just touch a button and a nice fire magically appeared! No
+dreaded hauling of firewood all afternoon on summer weekends. No having to
+build a fire with the previous week's newspaper. No scooping out old ash from
+the stove or getting on the roof every year and sending a brush up and down the
+chimney to clean it out.
+
+What's more is that my dad looked genuinely happy to be out splitting firewood.
+
+He seemed very pleased in the winter evenings with a roaring fire going and a
+beer in hand, but that was easy to understand. It was the splitting and the
+hauling and all the overhead in the summertime that I was baffled about. When I
+was older (and my brother went off to school and I was left to pick up all his
+slack...) I finally asked him about it.
+
+He explained that being in IT, things like wood burning and fishing and the
+outdoors were the antidote to his technology filled workweek. After a full day
+of sitting in front of a computer screen and working with people and their
+endless computer issues, spending quiet time outside in the sun and fresh air,
+either alone or with his boys, provided a balance to his life that was
+important to maintain.
+
+---
+
+After becoming an experienced software developer I've come to understand my
+dad's insistence of balance between technology and the simple things in life
+more and more over the years. It needn't be burning wood or even the outdoors
+at all - but I now firmly believe that having something that grounds you and
+doesn't involve staring at a liquid crystal display whatsoever is vital to
+feeling balanced in day-to-day life.
+
+I enjoy bonfires, and when I moved back to Minnesota last summer I had to
+use some (gasp) purchased firewood from the gas station (Yeah, we have that here.
+Is that weird?). The wood burned incredibly poorly; it was obvious that it was
+newly split wood and completely unseasoned. I would have to take time and build
+the perfect structure to start, and constantly shift things around to get it to
+burn evenly.
+
+This experience was “frustrating”. But in an amazing,
+I’m-so-happy-it’s-not-another-software-problem sort of way.
+
+I wasn't digging through stack traces trying to find where some 3rd party
+library accidentally made a breaking change in their latest patch release. I
+wasn't mulling over the best approach to make some major change to the core
+architecture of an application to avoid breaking things and pissing off untold
+numbers of customers (with said major change being a precondition to
+implementing the feature said customer had been asking about, of course).
+
+I wasn't continuing to ask for minimal examples of that phantom issue that
+multiple people have reported but no one can narrow down. I wasn't getting DM'd
+about remembering some small caveat from code written years ago regarding
+that one thing that kept me up all night or all weekend and I'd
+rather just forget about forever.
+
+I wasn't doing any of those things. *But I was debugging!* I was debugging
+something completely and utterly different, applying all the same logical
+processing of thoughts.  I was trying to make some pile of shitty wood burn.
+Which piece should I add next? Is this one too thick?  Does it seem drier than
+that piece? Maybe I should wait until the fire is hotter to burn this bad one.
+Where on the fire would it burn the best? Is there enough airflow there? Will
+the structure collapse if I try and move that corner?
+
+Debugging under the stars with a bottle of bourbon and the sound of crickets
+and loons as my work playlist. It's this sort of disconnection from our
+always-online society that keeps my balance.
+
+I _love_ technology, software, and the communities that support it. I work
+remotely, and while I try to keep a healthy separation between work and home
+I'm too passionate about what I do to completely evict programming from my mind
+the moment the clock hits 5pm. I might merge pull-requests and read emails
+after a typical work day. I talk shop constantly on the weekends and speak at
+conferences. I check Twitter too often. I do all these things because I'm
+fortunate enough to be paid to do something that I _really_ love doing a lot.
+
+If I do nothing but these things for too long, I become a mess. It's not
+something I even notice (which is the worst part), not suddenly. I just begin
+to become this zombie of a person, only caring about getting that low priority
+bugfix I wrote merged or some issue closed or some CFP submitted. Slowly but
+surely the road to burnout begins.
+
+But disconnecting and concentrating on other things is my antidote. I've
+developed a _huge_ affinity towards hiking. I play organized hockey twice a
+week. I love burning fires and getting lost in the night sky. And as a former
+orchestral musician, I enjoy reading some old charts every now and then.
+
+**Find something that you love that has absolutely nothing to do with software
+and technology. Learn a skill that uses your hands beyond touching keycaps.
+Pour yourself in to it. I think you'll find that it will give you a balance
+that makes you all the more concentrated and effective as a software developer
+when you open up that text editor in the morning.**
