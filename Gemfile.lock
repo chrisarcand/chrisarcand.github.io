@@ -193,9 +193,10 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-darwin-16
 
 DEPENDENCIES
   github-pages
 
 BUNDLED WITH
-   1.13.7
+   1.15.0
