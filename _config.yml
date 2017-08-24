@@ -35,7 +35,7 @@ kramdown:
   input:               GFM # Github Flavored Markdown
   hard_wrap:           false # do not replace newlines by <br>s
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 exclude:
