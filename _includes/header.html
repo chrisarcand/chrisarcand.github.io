@@ -3,13 +3,13 @@
   <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
 </span>
 
-<header class="panel-cover panel-cover--collapsed" style="background-image: url({{ "images/cover.jpg" | prepend: site.baseurl }})">
+<header class="panel-cover panel-cover--collapsed" style="background-image: url({{ "/images/cover.jpg" | prepend: site.url }})">
   <div class="panel-main">
 
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
-        <a href="{{ site.baseurl }}" title="link to home of {{ site.title }}">
-          <img src="{{ "images/avatar_small.jpeg" | prepend: site.baseurl }}" class="user-image" alt="My Profile Photo">
+        <a href="{{ site.url }}" title="link to home of {{ site.title }}">
+          <img src="{{ "/images/avatar_small.jpeg" | prepend: site.url }}" class="user-image" alt="My Profile Photo">
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
         </a>
         <hr class="panel-cover__divider">
@@ -74,7 +74,7 @@
 
             <!-- RSS -->
             <li class="navigation__item">
-              <a href="{{ "atom.xml" | prepend: site.baseurl }}" title="Subscribe" target="_blank">
+              <a href="{{ "/atom.xml" | prepend: site.url }}" title="Subscribe" target="_blank">
                 <i class="icon icon-rss"></i>
                 <span class="label">RSS</span>
               </a>
@@ -88,16 +88,16 @@
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
               <li class="navigation__item">
-                <a href="{{ site.baseurl }}#blog" title="Posts" class="blog-button">Posts</a>
+                <a href="{{ site.url }}/#blog" title="Posts" class="blog-button">Posts</a>
               </li>
               <li class="navigation__item">
-                <a href="{{ site.baseurl }}talks" title="Talks" class="blog-button">Talks</a>
+                <a href="{{ site.url }}/talks" title="Talks" class="blog-button">Talks</a>
               </li>
               <li class="navigation__item">
-                <a href="{{ site.baseurl }}about" title="About" class="blog-button">About</a>
+                <a href="{{ site.url }}/about" title="About" class="blog-button">About</a>
               </li>
               <li class="navigation__item">
-                <a href="{{ site.baseurl }}forhire" title="Hire me!" class="blog-button">Hire me!</a>
+                <a href="{{ site.url }}/forhire" title="Hire me!" class="blog-button">Hire me!</a>
               </li>
             </ul>
           </nav>

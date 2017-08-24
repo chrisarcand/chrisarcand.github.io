@@ -16,9 +16,9 @@ permalink: /posts/
       {% endif %}
     {% endunless %}
         {% if post.link %}
-        <h2 class="post-list__post-title post-title" style="margin-top: 20px;"><a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="icon icon-link"></i></a></h2>
+        <h2 class="post-list__post-title post-title" style="margin-top: 20px;"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="icon icon-link"></i></a></h2>
         {% else %}
-        <h2 class="post-list__post-title post-title" style="margin-top: 20px;"><a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+        <h2 class="post-list__post-title post-title" style="margin-top: 20px;"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
         {% endif %}
   {% endfor %}
 </div>

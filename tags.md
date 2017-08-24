@@ -30,4 +30,4 @@ permalink: /tags/
   </div>
 {% endfor %}
 
-<p style="font-size: 14px; margin-top: 20px;"><a href="{{ site.baseurl }}posts">View full archive</a></p>
+<p style="font-size: 14px; margin-top: 20px;"><a href="{{ site.url }}/posts">View full archive</a></p>

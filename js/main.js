@@ -21,7 +21,7 @@ $(document).ready(function () {
     }
   })
 
-  if (window.location.pathname !== '{{ site.baseurl }}' && window.location.pathname !== '{{ site.baseurl }}index.html') {
+  if (window.location.pathname !== '{{ site.url }}' && window.location.pathname !== '{{ site.url }}/index.html') {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
 
