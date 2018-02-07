@@ -4,17 +4,19 @@ layout: page
 permalink: /about/
 ---
 
-I'm a Ruby developer at [Red Hat][1]{:target="_blank"} on the [ManageIQ][2]{:target="_blank"} core team. ManageIQ
-is the open source cloud management platform behind [Red Hat CloudForms][3]{:target="_blank"}.
-I've enjoyed working remotely since 2014 and call the [Twin Cities][7]{:target="_blank"} of [Minneapolis][8]{:target="_blank"} and [St. Paul][9]{:target="_blank"}, [Minnesota][10]{:target="_blank"} my home.
+I'm a platform engineer at [Red Hat][1]{:target="_blank"} on the
+[ManageIQ][2]{:target="_blank"} core team. ManageIQ is the open source cloud
+management platform behind [Red Hat CloudForms][3]{:target="_blank"}.  I call
+the [Twin Cities][7]{:target="_blank"} of [Minneapolis][8]{:target="_blank"}
+and [St. Paul][9]{:target="_blank"}, [Minnesota][10]{:target="_blank"} my home.
 
-I like working with the full web stack and [contributing to the open source
-community][5]{:target="_blank"}. I've spoken at major conferences as close as
-the American Midwest and as far as Kyoto, Japan.
+I've enjoyed working remotely since 2014 and have worked full-time on open
+source software since 2015. I also enjoy public speaking, having spoken at
+major conferences as close as the American Midwest and as far as Kyoto, Japan.
 
-Outside of programming I love backpacking, hockey, and
-performing/listening to music. Above all I simply aspire to be a good human
-being.
+Outside of programming I love backpacking, [ice
+hockey](https://www.instagram.com/p/BeecYWCAo6i/), and performing/listening to
+music. Above all I simply aspire to be a good human being.
 
 [Full resumé][6]{:target="_blank"}
 
