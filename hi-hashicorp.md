@@ -4,7 +4,7 @@ layout: page
 permalink: /hi-hashicorp/
 ---
 
-I'm Chris, and I'm thrilled to joining the Terraform Enterprise team! I thought
+I'm Chris, and I'm thrilled to join the Terraform Enterprise team! I thought
 it might be nice to share a some random things about the weirdo behind the new avatar in Slack!
 
 * **Previously, I spent a formative part of my career at [Red Hat][1]**, where I worked on [ManageIQ][2], the
