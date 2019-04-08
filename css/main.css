@@ -102,6 +102,10 @@ blockquote .twitter-share-button {
   margin-top: 5px;
 }
 
+.speakerdeck-embed {
+  width: 560px;
+}
+
 .navigation--social {
   margin-left: 0;
 }
