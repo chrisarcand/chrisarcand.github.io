@@ -61,4 +61,4 @@ Interview your interviewers and try to connect with people you'd hope to be able
 
 ---
 
-*Want to get a chance to ask me what my answers are, and how confident I was joining my team at HashiCorp? (Spoiler: I was very confident) We're hiring! Check out our open positions at [hashicorp.com/jobs](https://www.hashicorp.com/jobs)*
+*Want to ask me these questions, and hear how confident I was joining my team at HashiCorp? (Spoiler: I was very confident) We're hiring! Check out our open positions at [hashicorp.com/jobs](https://www.hashicorp.com/jobs)*
