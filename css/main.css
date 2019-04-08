@@ -110,6 +110,10 @@ blockquote .twitter-share-button {
   margin-left: 0;
 }
 
+.panel-cover__description a:hover {
+  color: #e25440;
+}
+
 .user-image {
   margin-bottom: 1.2em;
   position: relative;
