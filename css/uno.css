@@ -22,12 +22,12 @@ body {
 ol, ul {
 	list-style: none; }
 
-blockquote, q {
+/* blockquote, q {
 	quotes: none; }
 
 blockquote:before, blockquote:after {
 	content: '';
-	content: none; }
+	content: none; } */
 
 q:before, q:after {
 	content: '';
@@ -989,7 +989,7 @@ strong {
 em {
 	font-style: italic; }
 
-blockquote {
+/* blockquote {
 	margin: 1em 0;
 	padding: 2em 0;
 	background: #f8f8f8;
@@ -1001,7 +1001,7 @@ blockquote {
 	font-size: 1.3em;
 	text-align: center; }
 	blockquote p:last-child {
-		margin-bottom: 0; }
+		margin-bottom: 0; } */
 
 ol, ul {
 	margin: 0 0 1.3em 2.5em; }
