@@ -6,7 +6,9 @@
 
 <script type="text/javascript" src="{{ "/js/main.js" | prepend: site.url }}"></script>
 
-<script> $(".post a").attr("target", "_blank"); </script>
+<script>
+  $(".post a").not( ".anchor-only" ).attr("target", "_blank");
+</script>
 
 {% if site.google_analytics %}
 <script>
