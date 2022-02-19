@@ -1,7 +1,7 @@
 # Site settings
 title:                 Chris Arcand
 description:           'Senior engineer building <a href="https://www.terraform.io/" target="_blank">Terraform</a> at <a href="https://www.hashicorp.com/" target="_blank">HashiCorp</a> 👨‍💻 Formerly: <a href="https://www.redhat.com" target="_blank">Red Hat</a>, <a href="https://www.sportsengine.com/" target="_blank">NBC SportsEngine</a>. <a href="http://ruby.mn/">RubyMN</a> organizer. OSS, distributed teams, and keyboards. I make pointless connections to Minnesota as a Minnesotan does'
-location:              Minneapolis, MN
+location:              St. Paul, MN
 url:                   'https://chrisarcand.com'
 google_analytics:      'UA-41741905-2'
 
