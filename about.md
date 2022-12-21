@@ -4,9 +4,9 @@ layout: page
 permalink: /about/
 ---
 
-I'm a software engineering lead at [HashiCorp][1]{:target="_blank"} where I work on
+I'm a Principal Engineer at [HashiCorp][1]{:target="_blank"} where I work on
 [Terraform][2]{:target="_blank"}, an open-source tool that provides a consistent
-infrastructure-as-code workflow to manage hundreds of cloud services by codifying APIs into
+infrastructure-as-code workflow to manage any of service by codifying APIs into
 declarative configuration files. I call the [Twin Cities][7]{:target="_blank"} of
 [Minneapolis][8]{:target="_blank"} and [St. Paul][9]{:target="_blank"},
 [Minnesota][10]{:target="_blank"} my home.
