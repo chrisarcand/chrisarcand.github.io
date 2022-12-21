@@ -8,9 +8,11 @@ google_analytics:      'UA-41741905-2'
 author:
   name:                Chris Arcand
   email:               chris@chrisarcand.com
-  twitter_username:    chrisarcand
+  # twitter_username:    chrisarcand  Bye bye birdie
   github_username:     chrisarcand
   linkedin_username:   chrisarcand
+  mastodon_username:   chrisarcand
+  mastodon_instance:   hachyderm.io
 
 defaults:
   -
