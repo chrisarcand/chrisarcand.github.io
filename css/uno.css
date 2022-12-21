@@ -695,6 +695,9 @@ body {
 .icon-social-linkedin:before {
 	content: "\f1d0"; }
 
+.icon-social-mastodon:before {
+	content: "\f4f6"; }
+
 .icon-social-medium:before {
 	content: "\f1d1"; }
 
