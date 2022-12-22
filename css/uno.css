@@ -68,7 +68,7 @@ body {
 	display: inline-block;
 	text-decoration: inherit; }
 
-.fa-brands {
+.fa-brands:before {
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
