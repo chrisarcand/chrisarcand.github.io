@@ -58,7 +58,6 @@ body {
 	font-weight: normal;
 	font-style: normal; }
 .icon:before {
-	font-family: "foundation-icons";
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -67,6 +66,10 @@ body {
 	-webkit-font-smoothing: antialiased;
 	display: inline-block;
 	text-decoration: inherit; }
+
+.foundation-icons {
+	font-family: "foundation-icons";
+}
 
 .icon-address-book:before {
 	content: "\f100"; }
@@ -672,6 +675,7 @@ body {
 	content: "\f1c8"; }
 
 .icon-social-github:before {
+	font-family: "foundation-icons";
 	content: "\f1c9"; }
 
 .icon-social-google-plus:before {
