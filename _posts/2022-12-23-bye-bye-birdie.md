@@ -8,17 +8,17 @@ description: "The accelerated demise of Twitter and moving on to Mastodon. I'm p
 In some ways, I should be furious that a self-indulgent billionaire manbaby brought about the
 practical end of Twitter.
 
-Twitter has been overall a very positive platform for my [tech] career and keeping in
+Twitter was once a very positive platform for my [tech] career and keeping in
 touch with colleagues throughout the industry. There are multiple people I met solely on Twitter and
 then engaged with in person at whatever conference only after engaging with them a whole year prior;
-some of these people are now close friends. I've gotten jobs from knowing people and companies via
+some of these people are now close friends nearly a decade later. I've gotten jobs from knowing people and companies via
 Twitter. I've been kept critically informed in real time on important current events happening in
 the world. The phenomena of a sizeable percentage of traditional news outlet content literally being
 'Breaking News: Someone tweeted X yesterday' should be well noted by now. And hey, all that on top
 of the same platform entertaining me as a consistent pipeline of pointless shitposts during
 extended family holiday get-togethers? Amazing.
 
-But this practical end of Twitter is really only a accelerated demise; Elom didn't ruin Twitter, he
+But this practical end of Twitter is really only an accelerated demise; Elom didn't ruin Twitter, he
 only [laughably, horrifyingly, honestly-impressively] has done such an inconceivably terrible job
 since acquiring it that he made the long-burn end come so much faster than anyone could have ever
 anticipated. It's been years now that I (and many others, I know) have looked in the mirror and
@@ -26,12 +26,11 @@ wondered what I even get out of Twitter and social media in its current form. Ev
 positives held constant (though they haven't been, I'd say), the number of negatives has long since grown
 such that the net experience is a toxic one for many.
 
-There are far too many topics to discuss when it comes to 'Horrible things about Twitter and
-traditional social media', and as a cis white dude in tech named 'Chris' (a frequent archetype, as
-you can imagine) I'm aware that if I consider my social media experience 'toxic'
-while playing the game of life on 'Easy Mode' it must be an order of magnitude more toxic for many,
-many others. I experience no death threats or marginalization on the basis of my ethnicity, sexual
-orientation, gender, etc. I know many, many people that do.
+As a cis white dude in tech named 'Chris' (a frequent archetype, as you can imagine) I'm aware that
+if I consider my social media experience 'toxic' while playing the game of life on 'Easy Mode' it
+must be an order of magnitude more toxic for many, many others. I experience no death threats or
+marginalization on the basis of my ethnicity, sexual orientation, gender, etc. I know many, many
+people that do.
 
 > Traditional, centralized social media companies rely solely on doing **anything** to continue your unwitting desire to click on random bullshit indefinitely.
 
@@ -55,19 +54,19 @@ Do It™ when it comes to social media.
 
 And so, ironically, I should instead be thanking Elom for expeditiously throwing Twitter in a burning
 dumpster with shocking efficiency. I can waffle back and forth for years about the nature of my
-social media usage, the effect of relentless engagement its propensity to cause someone to be
+social media usage, the effect of relentless engagement and its propensity to cause someone to be
 unable to [embrace boredom](https://chrisarcand.com/embrace-boredom/) and distract themselves from
 experience real life - but it's extremely easy to draw a hard line at "[I refuse to support far right
 conspiracy theorists and Nazis.](https://www.theatlantic.com/technology/archive/2022/12/elon-musk-twitter-far-right-activist/672436/)"
 
 #### The Year Of Mastodon (and the 'Fediverse') On The Desktop
 
-The events of the last two months(!) have pushed people to alternatives in [a way that we've never experienced
-before.](https://mashable.com/article/mastodon-millions-users) I'd been hoping for a long time that
-an alternative would become popular and viable - I just recently , and it seems that Mastodon is finally
-becoming just that. I've only been using it for a couple days on this last go around, but the
-experience is far, far different with so many people embracing it and eyeing Twitter burning in a
-dumpster in their rear view mirror.
+The events of the last two months(!) have pushed people to alternatives in [a way that we've never
+experienced before.](https://mashable.com/article/mastodon-millions-users) I'd been hoping for a
+long time that an alternative would become popular and viable (I just recently discovered I have a
+mastodon.social account from 2018!); it seems that Mastodon is finally becoming just that. I've only
+been using it for a couple days on this last go around, but the experience is far, far different
+with so many people embracing it and eyeing Twitter burning in a dumpster in their rear view mirror.
 
 I'm very keen on the web returning to the idea of [protocols over
 platforms](https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech).
