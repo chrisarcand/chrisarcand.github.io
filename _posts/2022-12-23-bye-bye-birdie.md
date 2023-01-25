@@ -70,7 +70,7 @@ with so many people embracing it and eyeing Twitter burning in a dumpster in the
 
 I'm very keen on the web returning to the idea of [protocols over
 platforms](https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech).
-To that end, I'm indefinitely ending my Twitter usage and going all in on the 'Fediverse' and one of the
+To that end, I'm indefinitely limiting my Twitter usage and going in on the 'Fediverse' and one of the
 few instances in the modern hype cycle of Decentralized Everything that - dare I say - may actually
 make great sense: decentralized social media. I've removed all main links to Twitter from my website,
 removed all usage of Twitter as a 3rd party OAuth provider, and replaced what I can with my Mastodon
