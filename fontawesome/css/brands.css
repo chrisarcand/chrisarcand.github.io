@@ -1458,6 +1458,11 @@
 .fa-mastodon:before {
   content: "\f4f6"; }
 
+.fa-bluesky {
+  height: 24px;
+  width: 24px;
+}
+
 .fa-bluesky:before {
   content: "";
   display: block;
