@@ -1458,6 +1458,17 @@
 .fa-mastodon:before {
   content: "\f4f6"; }
 
+.fa-bluesky:before {
+  content: "";
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-size: 24px 24px;
+  background-image: url('../../images/blueskylogo.svg');
+  background-repeat: no-repeat;
+}
+
+
 .fa-airbnb:before {
   content: "\f834"; }
 

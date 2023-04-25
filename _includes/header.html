@@ -32,6 +32,16 @@
               </li>
             {% endif %}
 
+            {% if site.author.bluesky_username %}
+              <!-- Bluesky -->
+              <li class="navigation__item">
+                <a rel="me" href="https://bsky.app/profile/{{ site.author.bluesky_username }}" title="@{{ site.author.bluesky_username }} on Bluesky" target="_blank">
+                  <i class="fa-brands fa-bluesky"></i>
+                  <span class="label">Bluesky</span>
+                </a>
+              </li>
+            {% endif %}
+
             {% if site.author.mastodon_username %}
               <!-- Mastodon -->
               <li class="navigation__item">
@@ -41,6 +51,7 @@
                 </a>
               </li>
             {% endif %}
+
 
             {% if site.author.github_username %}
               <!-- GitHub -->
