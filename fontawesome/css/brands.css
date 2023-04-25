@@ -1458,15 +1458,10 @@
 .fa-mastodon:before {
   content: "\f4f6"; }
 
-.fa-bluesky {
-  height: 24px;
-  width: 24px;
-}
-
 .fa-bluesky:before {
   content: "";
   display: block;
-  height: 24px;
+  height: 20px;
   width: 24px;
   background-size: 24px 24px;
   background-image: url('../../images/blueskylogo.svg');
