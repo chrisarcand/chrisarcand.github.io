@@ -11,8 +11,8 @@ author:
   # twitter_username:    chrisarcand  Bye bye birdie
   github_username:     chrisarcand
   linkedin_username:   chrisarcand
-  mastodon_username:   chrisarcand
-  mastodon_instance:   hachyderm.io
+  # mastodon_username:   chrisarcand  Sorry I just straight up don't mastodon
+  # mastodon_instance:   hachyderm.io
   bluesky_username:    chrisarcand.com
 
 defaults:

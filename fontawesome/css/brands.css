@@ -1461,7 +1461,7 @@
 .fa-bluesky:before {
   content: "";
   display: block;
-  height: 22px;
+  height: 20px;
   width: 22px;
   background-size: 22px 22px;
   background-image: url('../../images/blueskylogo.svg');
