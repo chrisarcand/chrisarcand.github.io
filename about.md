@@ -4,7 +4,7 @@ layout: page
 permalink: /about/
 ---
 
-I'm a Principal Engineer at [HashiCorp][1]{:target="\_blank"} where I work on
+I'm a Principal Engineer at [IBM / HashiCorp][1]{:target="\_blank"} where I work on
 [Terraform][2]{:target="\_blank"}, an [IaC][12]{:target="\_blank"} industry-defining tool for
 managing any kind of service by codifying APIs into declarative configuration files. I call the
 [Twin Cities][7]{:target="\_blank"} of [Minneapolis][8]{:target="\_blank"} and [St.
