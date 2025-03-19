@@ -1,6 +1,6 @@
 <footer class="footer">
   <span class="footer__copyright" style="font-size:10px;"><a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="vertical-align: middle" src="https://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a>  This work is licensed under a<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/" style="font-size: 10px"> Creative Commons Attribution-ShareAlike 3.0 Unported License</a></span>
-</footer> 
+</footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
@@ -8,6 +8,8 @@
 
 <script>
   $(".post a").not( ".anchor-only" ).attr("target", "_blank");
+  $(".footnotes a").attr("target", "_top");
+  $("a.footnote").attr("target", "_top");
 </script>
 
 {% if site.google_analytics %}
