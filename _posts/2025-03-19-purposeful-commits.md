@@ -2,7 +2,8 @@
 layout: post
 title: "Purposeful Commits"
 tags: [Git]
-description: "Git history isn't just a chaotic diary of your development process—it's a communication tool that tells a story. Purposeful commits create a cleaner, more logical narrative that makes your code easier to review, understand, and maintain."
+description: "Git history shouldn't be just a chaotic diary of your development process—it's a communication tool that tells a story. Purposeful commits create a cleaner, more logical narrative that makes your code easier to review, understand, and maintain."
+image: /images/posts/socialmediacards/purposeful_commits_card.png
 ---
 
 Merge commits, squash commits, rebasing, requiring a linear history...how a team chooses - or does
