@@ -527,3 +527,9 @@ process.
     [patch sets](https://gerrit-review.googlesource.com/Documentation/concept-patch-sets.html) -
     iterative development on individual commits - sounds _exactly_ like a system built around
     purposefully committing :)
+
+**RELATED POSTS:**
+
+<a href="https://chrisarcand.com/git-autofix-for-amending-pull-requests/">
+  <img src="/images/posts/socialmediacards/autofix_card.png" alt="Git Autofix for Amending Pull Requests" />
+</a>
