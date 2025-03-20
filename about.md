@@ -24,7 +24,7 @@ connections to Minnesota at every opportunity.
 
 [Full resumé][6]{:target="\_blank"}
 
-<img src="../images/danglingpointers.png" style="width: 600px" />
+<img src="../images/danglingpointers.png" style="max-width: 100%; height: auto; width: 600px;" />
 
 [1]: https://www.hashicorp.com
 [2]: https://www.hashicorp.com/products/terraform
