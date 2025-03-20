@@ -28,9 +28,6 @@
   <meta name="apple-mobile-web-app-title" content="chrisarcand.com">
   <meta name="application-name" content="{{ site.title }}">
 
-  <!-- Security Headers -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.google-analytics.com; style-src 'self' 'unsafe-inline';">
-
   <!-- Canonical URL and Alternate Links -->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/atom.xml">
@@ -157,16 +154,15 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png">
 
-  <!-- Resource Preloading and Preconnect -->
-  <link rel="preload" href="{{ "/css/main.css" | relative_url }}" as="style">
-  <link rel="preload" href="/fontawesome/css/fontawesome.css" as="style">
+  <!-- Preconnect for External Resources -->
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
-
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
 
   <!-- Font Awesome -->
   <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
   <link href="/fontawesome/css/brands.css" rel="stylesheet">
   <link href="/fontawesome/css/solid.css" rel="stylesheet">
+
+  <!-- Stylesheets - using original URL format -->
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.url }}">
+</head>
