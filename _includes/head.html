@@ -1,41 +1,172 @@
 <head>
+  <!-- Basic Metadata -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+  <!-- Page Information -->
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{{ site.description | strip_html }}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description | strip_html }}{% endif %}">
   <meta name="author" content="{{ site.author.name }}">
+
+  <!-- Language and Locale -->
+  <meta property="og:locale" content="en_US">
+  <link rel="alternate" href="{{ site.url }}{{ page.url }}" hreflang="en-us">
+
+  <!-- SEO Control -->
+  {% if page.robots %}
+  <meta name="robots" content="{{ page.robots }}">
+  {% else %}
+  <meta name="robots" content="index, follow">
+  {% endif %}
+
+  <!-- Mobile Optimization -->
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-title" content="chrisarcand.com">
+  <meta name="application-name" content="{{ site.title }}">
 
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@chrisarcand" />
+  <!-- Security Headers -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.google-analytics.com; style-src 'self' 'unsafe-inline';">
+
+  <!-- Canonical URL and Alternate Links -->
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/atom.xml">
+
+  <!-- Twitter Card Metadata -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@chrisarcand">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description | strip_html }}{% endif %}">
-  <meta name="twitter:image" content="https://chrisarcand.com/images/circle_small.png" />
+  <meta name="twitter:image" content="https://chrisarcand.com/images/circle_small.png">
 
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="{{ site.title }}">
-  <meta property="og:description" content="{{ site.description | strip_html }}">
+  <!-- Open Graph Metadata -->
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description | strip_html }}{% endif %}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+  <meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}https://chrisarcand.com/images/circle_small.png{% endif %}">
+  <meta property="og:site_name" content="{{ site.title }}">
 
-  <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="/images/favicons/favicon.svg" />
-  <link rel="shortcut icon" href="/images/favicons/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png" />
-  <meta name="apple-mobile-web-app-title" content="chrisarcand.com" />
-  <link rel="manifest" href="/images/favicons/site.webmanifest" />
+  <!-- Pinterest Rich Pins -->
+  <meta name="pinterest-rich-pin" content="true">
+
+  <!-- Article-Specific Metadata (for blog posts) -->
+  {% if page.layout == 'post' %}
+  {% if page.date %}
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  {% endif %}
+  {% if page.last_modified_at %}
+  <meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">
+  {% endif %}
+  {% if page.categories %}
+  <meta property="article:section" content="{{ page.categories[0] }}">
+  {% endif %}
+  {% if page.tags %}
+  {% for tag in page.tags %}
+  <meta property="article:tag" content="{{ tag }}">
+  {% endfor %}
+  {% endif %}
+  {% endif %}
+
+  <!-- Basic Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+    "description": "{% if page.description %}{{ page.description }}{% else %}{{ site.description | strip_html }}{% endif %}",
+    "url": "{{ page.url | replace:'index.html','' | prepend: site.url }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ site.author.name }}"
+    }
+  }
+  </script>
+
+  <!-- BlogPosting Schema (for blog posts) -->
+  {% if page.layout == "post" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url | replace:'index.html','' | prepend: site.url }}"
+    },
+    "headline": "{{ page.title }}",
+    "description": "{% if page.description %}{{ page.description }}{% else %}{{ site.description | strip_html }}{% endif %}",
+    "image": "{% if page.image %}{{ page.image | prepend: site.url }}{% else %}https://chrisarcand.com/images/circle_small.png{% endif %}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ site.author.name }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ site.title }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://chrisarcand.com/images/circle_small.png"
+      }
+    },
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}"
+  }
+  </script>
+  {% endif %}
+
+  <!-- Breadcrumb Structured Data -->
+  {% if page.categories %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ site.url }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ page.categories[0] | capitalize }}",
+        "item": "{{ site.url }}/categories/{{ page.categories[0] | slugify }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "{{ page.title }}",
+        "item": "{{ site.url }}{{ page.url }}"
+      }
+    ]
+  }
+  </script>
+  {% endif %}
+
+  <!-- Favicons and App Icons -->
+  <link rel="icon" type="image/svg+xml" href="/images/favicons/favicon.svg">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="manifest" href="/images/favicons/site.webmanifest">
   <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png">
 
-  <!-- Using FontAwesome for basically just that Mastodon icon! -->
+  <!-- Resource Preloading and Preconnect -->
+  <link rel="preload" href="{{ "/css/main.css" | relative_url }}" as="style">
+  <link rel="preload" href="/fontawesome/css/fontawesome.css" as="style">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
+
+  <!-- Font Awesome -->
   <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
   <link href="/fontawesome/css/brands.css" rel="stylesheet">
   <link href="/fontawesome/css/solid.css" rel="stylesheet">
-
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.url }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/atom.xml">
-</head>
