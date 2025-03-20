@@ -37,7 +37,7 @@
   <meta name="twitter:site" content="@chrisarcand">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description | strip_html }}{% endif %}">
-  <meta name="twitter:image" content="https://chrisarcand.com/images/circle_small.png">
+  <meta name="twitter:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}https://chrisarcand.com/images/circle_small.png{% endif %}">
 
   <!-- Open Graph Metadata -->
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
