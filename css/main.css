@@ -139,3 +139,21 @@ blockquote .twitter-share-button {
   position: relative;
   top: -0.5em;
 }
+
+.header-image-wrap img {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.image-credit {
+  font-size: 0.8em;
+  color: #999;
+  display: flex;
+  margin-bottom: 20px;
+}
