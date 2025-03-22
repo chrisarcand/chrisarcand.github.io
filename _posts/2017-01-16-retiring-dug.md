@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Retiring Dug; Hello Octobox!"
-tags: [Ruby, Projects]
+tags: [Ruby, Tech]
 description: "I'm retiring my gem for Github notifications, preferring to contribute to Octobox instead."
 ---
 

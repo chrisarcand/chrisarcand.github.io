@@ -2,7 +2,7 @@
   layout: talk
   title: "Why GraphQL?"
   presented_to: "Open Source North"
-  tags: [Talks, GraphQL]
+  tags: [Talks,Tech]
 ---
 
 If you don’t know much about GraphQL, you probably just identify it as the hip,

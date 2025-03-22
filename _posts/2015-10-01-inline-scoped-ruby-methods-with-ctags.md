@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Inline scoped Ruby methods with Ctags"
-tags: [Ruby]
+tags: [Ruby,Tech]
 description: "Adding Ctags support for Ruby 2.1's inline scoped method definitions"
 ---
 **TLDR: You can use [this](#solution) in your .ctags file to parse method definitions like

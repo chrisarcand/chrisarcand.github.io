@@ -1,10 +1,10 @@
 ---
   layout: post
   title: "'What happened to the orchestra?'"
-  tags: [Misc]
+  tags: [Non-Tech]
 ---
 
-"What happened to the orchestra?" 
+"What happened to the orchestra?"
 
 The question hit me hard. As the crosswalk light lit up and we started walking up Nicollet Avenue, I looked at my niece and I thought about the best way to explain it to her. It's not like I was expecting to answer this sort of question today. Just a fun little day adventure in downtown Minneapolis with my out-of-town niece, showing her the sights and sounds.
 

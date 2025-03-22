@@ -1,16 +1,12 @@
 ---
 layout: post
 title: "Oliver Sacks dies at 82"
-modified: 2015-08-31 10:30:21 -0400
-category: []
-tags: [Misc,Micropost]
+tags: [Non-Tech,Microposts]
 link: http://www.nytimes.com/2015/08/31/science/oliver-sacks-dies-at-82-neurologist-and-author-explored-the-brains-quirks.html
 image:
   feature: posts/oliver-sacks-header.jpg
   credit: Sara Krulwich/The New York Times
   creditlink: http://www.nytimes.com/2015/08/31/science/oliver-sacks-dies-at-82-neurologist-and-author-explored-the-brains-quirks.html
-comments:
-share:
 ---
 
 World renowned neurologist and author Oliver Sacks died yesterday.

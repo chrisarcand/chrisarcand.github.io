@@ -2,7 +2,7 @@
   layout: talk
   title: "A Comprehensive Degree of Ruby 2.3"
   presented_to: "the DC Ruby Users Group"
-  tags: [Talks, Ruby]
+  tags: [Talks, Ruby, Tech]
 ---
 
 A wide-ranged look at the newly released Ruby 2.3 - covering everything from

@@ -2,7 +2,7 @@
   layout: talk
   title: "Testing in ManageIQ"
   presented_to: "ManageIQ Summit 2016"
-  tags: [Talks, Ruby]
+  tags: [Talks, Ruby, Tech]
 ---
 
 A talk co-presented with the very awesome Joe Rafaniello about testing with RSpec in ManageIQ; presented at the 2016 ManageIQ Summit in Mahwah, NJ.

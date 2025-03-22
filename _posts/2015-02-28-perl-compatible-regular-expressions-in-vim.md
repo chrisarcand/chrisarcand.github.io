@@ -2,11 +2,11 @@
 layout: post
 title: "Perl Compatible Regular Expressions in vim"
 preview: "TLDR: If you don't want to have to deal with vim's non-Perl-like regular expressions in substitutions, you can easily enable Perl support and use :perldo <substitution> to get the job done."
-tags: [Vim]
+tags: [Vim,Tech]
 ---
 
 **TLDR:** *If you don't want to have to deal with vim's non-Perl-like regular expressions in substitutions, you can
-easily enable Perl support and use `:perldo <substitution>` to get the job done.* 
+easily enable Perl support and use `:perldo <substitution>` to get the job done.*
 
 Substitutions in vim are immensely powerful with regular expressions; I use them constantly. <MORE>
 
@@ -53,7 +53,7 @@ Once Perl support is enabled, you can now easily execute PCRE just as you would 
 Woo!
 
 Note that if you really wanted, you could do this with something like, say, Ruby. Just install `--with-ruby` and you can suddenly
-do the same thing using `gsub` if you want (seems pretty unnecessary to me). 
+do the same thing using `gsub` if you want (seems pretty unnecessary to me).
 
 ### Are vim's regular expressions really that different?
 Arguably, the distinctions between PCRE and vim's regex are small - they have similar features and for most people it's probably just

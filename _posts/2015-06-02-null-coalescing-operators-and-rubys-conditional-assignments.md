@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Null Coalescing Operators and Ruby's Conditional Assignments"
-tags: [Ruby]
+tags: [Ruby,Tech]
 image:
   feature:
   credit:

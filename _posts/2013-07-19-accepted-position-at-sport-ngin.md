@@ -2,7 +2,7 @@
 layout: post
 title: "Accepted a position at Sport Ngin!"
 description: "I'm thrilled to announce that I've just accepted a position at Sport Ngin as a software engineer on their development team."
-tags: [Misc]
+tags: [Non-Tech]
 ---
 
 I'm thrilled to announce that I've just accepted a position at <a href="http://sportngin.com">Sport Ngin</a> as a software engineer on their development team. I'll be working with some really exciting web technologies and building a new client-side Node.js application from the ground up.

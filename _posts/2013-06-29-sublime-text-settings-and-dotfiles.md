@@ -1,6 +1,6 @@
 ---
   layout: post
-  tags: [Misc]
+  tags: [Tech]
   title: "Sublime Text Settings and Dotfiles"
 ---
 

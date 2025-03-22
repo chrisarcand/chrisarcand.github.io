@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Interview Your Interviewers"
-tags: [Misc]
+tags: [Tech]
 description: "Interviewing is it’s own weird skillset, especially in software development. I often get asked for advice on interviewing by colleagues, and there’s one thing in particular I always share first: Interview your interviewers. An interview is every bit as much an assessment of the interviewer as it is an evaluation of the interviewee."
 ---
 
@@ -9,33 +9,33 @@ At this point in my career, I’ve taken a fair number of job interviews in the 
 
 Interviewing is (regrettably) it’s own weird skillset, especially in software development. You’re not only expected to demonstrate that you’re technically proficient enough for the role (or can clearly learn the technical skills required) but also that your personality fits well with the culture of the team - all within a few hours, usually. To keep this unique skillset of selling yourself sharp, some people advocate taking at least one interview every year even if you have no intention of actually accepting a new role. While I acknowledge that taking interviews like this requires time and privilege that not everyone has, I think this is a good strategy overall and I’ve followed it for number of years now.
 
- I often get asked for advice on interviewing by colleagues, and there’s one thing in particular I always share first: _Interview your interviewers._ An interview is every bit as much an assessment of the interviewer as it is an evaluation of the interviewee. 
+ I often get asked for advice on interviewing by colleagues, and there’s one thing in particular I always share first: _Interview your interviewers._ An interview is every bit as much an assessment of the interviewer as it is an evaluation of the interviewee.
 
-Interviews are not a one-sided ordeal and you shouldn’t forget to evaluate your potential company as you sit on the candidate’s side of the desk or screen! Companies you want to work for will always offer to honestly answer any questions you have and make sure they reserve enough time in every interview to do so. 
+Interviews are not a one-sided ordeal and you shouldn’t forget to evaluate your potential company as you sit on the candidate’s side of the desk or screen! Companies you want to work for will always offer to honestly answer any questions you have and make sure they reserve enough time in every interview to do so.
 
 > Interview your interviewers. An interview is every bit as much an assessment of the interviewer as it is an evaluation of the interviewee.
 
 Treating an interview as a true evaluation of _both_ parties has a ton of benefits:
 
-* **You get more value out of the interview, getting a clearer picture of whether or not the role is a good fit.**  
+* **You get more value out of the interview, getting a clearer picture of whether or not the role is a good fit.**
     Job descriptions are more or less bullshit - or at least omit a lot of particulars - even at good companies. They are purposely generic and are never actually tailored to describe the actual details around a specific requisition (this is intentional - more on that later).
 
-* **You shift the burden of answering questions and give yourself a break.**  
+* **You shift the burden of answering questions and give yourself a break.**
     Interviews are a lot of work, especially for anyone who tends to identify as more of an introvert. At many companies, candidates are evaluated by a panel of different people, each interview evaluating the candidate from a different angle. You might have interviews scheduled with plenty of time between them or you might get a few solid hours of interviews all in a row (hopefully not - but I've experienced this multiple times). Also consider that you might be interviewing at multiple companies at once!
-    
+
     Regardless of the length of time, interviews can be socially taxing as you take interview after interview, trying to reintroduce yourself to yet another person for yet another hour. Asking good, open-ended questions actually shifts the burden over to the interviewer, allowing yourself to regain a little composure and mentally recover from constantly answering them.
-* **You show more interest in the company and role to your interviewers.**  
+* **You show more interest in the company and role to your interviewers.**
     As someone who often sits on the interviewer side of the table as well, I've known people who saw a candidate not asking any questions at the end of an interview as a red flag. It supposedly signals that the candidate might not be all that interested in the company or role they are interviewing for. **I don’t agree with this**. Although it gives some small bit of insight in to a candidate (e.g. based on what they’re seeking clarification on, what do they seem to value?), blindly assuming the candidate isn’t excited about the role due to a lack of questions is a mistake. Nevertheless, it’s a common interviewer ‘tactic’ to be aware of.
 
 * **You have a better chance of avoiding a bad situation.**
     Just as you're trying to sell yourself in a few hours time, you also only have a few hours one-on-one time with employees of a company to really deduce anything that you'd consider an absolute dealbreaker to accepting an offer from a company; things that don't show up on paper in an offer letter but you might discover in some months' time and realize the role or team really wasn't a good fit for you. What sorts of things does the company value? Is there anything that makes you feel ethically uncomfortable that you might not have known about the company before? Do you have a clear picture of the expectations of the role and how your future team works together?
 
-* **You might be creating the beginnings of a good work relationship with your future coworkers.**  
+* **You might be creating the beginnings of a good work relationship with your future coworkers.**
     By treating an interview as a two-way street, you're really making it a _conversation_. Instead of a sequence of questions to answer and be done with, you might actually find yourself connecting with your future teammates. What better way for either side to evaluate if they'd be a good fit than by actually experiencing how you'd connect as colleagues to begin with?
 
 So now that you know you _should_ ask questions of your interviewers, _what_ should you ask? I like to keep a personal checklist of _potential_ questions to ask. If you don't know where to start with your own list, Julia Evans has a solid list of questions to get you going in [her post on the topic from 2013](http://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/). Pick out ones that matter to you, add your own, and don't be afraid to tweak them at any time.
- 
-In an actual interview I use a subset of questions depending on the particular concerns I might have for a specific company. The questions you ask can (and should!) vary between companies as each one is different. The company size, the role, and what stage the company is in (is it a privately owned startup? a publicly owned corporation?) will affect the priority of your set of questions. 
+
+In an actual interview I use a subset of questions depending on the particular concerns I might have for a specific company. The questions you ask can (and should!) vary between companies as each one is different. The company size, the role, and what stage the company is in (is it a privately owned startup? a publicly owned corporation?) will affect the priority of your set of questions.
 
 > Always ask a hiring manger _why_ the team needs you in an interview. Job postings are almost universally bad at getting specific about the actual role in mind, even at good companies.
 

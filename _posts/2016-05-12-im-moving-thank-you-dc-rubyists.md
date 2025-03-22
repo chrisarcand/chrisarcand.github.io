@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I'm moving! A thank you to DC Rubyists"
-tags: [Ruby, Misc]
+tags: [Ruby,Non-Tech]
 description: "I'm leaving the DC area, but you can bet I'll be back to visit. A short aside to thank the fantastic DC area Ruby community."
 ---
 

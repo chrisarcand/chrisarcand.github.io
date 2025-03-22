@@ -2,7 +2,7 @@
 layout: post
 title: "RSpec Pattern for Testing Permissions"
 link: http://www.brdyorn.com/2014/12/10/rspec-pattern-for-testing-permissions.html
-tags: [Ruby,Micropost]
+tags: [Ruby,Tech,Microposts]
 description: "Brady Ouren writes about a pattern we developed to more easily test user permissions in Rails controllers with RSpec."
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Manually setting languages on GitHub with Linguist's (Improved) Vim Modeline Detection"
-tags: [Vim, Git]
+tags: [Tech,Vim,Git]
 description: "Useful even for non-Vim users: You can use Vim modelines to manually set the programming language for a file on GitHub (syntax highlighting, stats) - now with more flexible modeline syntax."
 ---
 
@@ -14,7 +14,7 @@ languages on a repository's home page [since 2012][2]. The latest incarnation of
 
 Languages are recognized for both of these features by GitHub's [Linguist][4], an open source Ruby gem [released in 2011
 from GitHub's original highlighting lexers.][3] It works fairly well using file extensions, and common project layouts
-(example: ignoring vendored file locations). 
+(example: ignoring vendored file locations).
 
 However, for something with an uncommon layout or extension it's
 understandably inaccurate. My personal dotfiles are a good example, where I designate a file to be automatically

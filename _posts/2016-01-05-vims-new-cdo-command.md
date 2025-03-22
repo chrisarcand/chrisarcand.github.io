@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vim's new :cdo command"
-tags: [Vim]
+tags: [Vim,Tech]
 description: "Vim's new :cdo command offers new flexibility with your quickfix list. One such example is a near-native way to do project-wide find-and-replace operations."
 ---
 

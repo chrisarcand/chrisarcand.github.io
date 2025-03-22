@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Embrace Boredom"
-tags: [Misc]
+tags: [Non-Tech]
 description: "'Much in the same way that athletes must take care of their bodies outside of their training sessions, you’ll struggle to achieve the deepest levels of concentration if you spend the rest of your time fleeing the slightest hint of boredom.'"
 ---
 

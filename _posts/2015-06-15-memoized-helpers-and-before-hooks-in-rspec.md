@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Memoized helpers and before hooks in RSpec"
-tags: [Ruby]
+tags: [Ruby,Tech]
 image:
   feature:
   credit:

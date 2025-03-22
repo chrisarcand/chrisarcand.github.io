@@ -2,7 +2,7 @@
   layout: talk
   title: "An Atypical 'Performance' Talk"
   presented_to: "Keep Ruby Weird 2017"
-  tags: [Talks, Ruby]
+  tags: [Talks, Ruby, Tech, Non-Tech]
 ---
 
 A mixture of a talk on programming and a live classical music recital. I talk about parallelisms between music performance and programming - such as complexity, imposter syndrome, and true concentration - with unaccompanied clarinet performances throughout.

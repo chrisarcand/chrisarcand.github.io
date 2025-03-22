@@ -2,7 +2,7 @@
   layout: talk
   title: "Deletion Driven Development: Code to delete code!"
   presented_to: "RubyKaigi 2016"
-  tags: [Talks, Ruby]
+  tags: [Talks, Ruby, Tech]
 ---
 
 A talk about building a static analysis tool to find deletable Ruby code.

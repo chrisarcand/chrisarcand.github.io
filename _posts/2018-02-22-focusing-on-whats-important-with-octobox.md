@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Focusing on what's important: Managing GitHub notifications with Octobox"
-tags: [Projects]
+tags: [Tech]
 description: "I wrote something for devproductivity.io about how I use Octobox to focus my attention on what's important while still keeping an eye across many different projects."
 ---
 

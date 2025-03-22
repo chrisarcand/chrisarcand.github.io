@@ -2,7 +2,7 @@
 layout: post
 title: "Introducing Dug"
 modified: 2016-02-11 18:36:21 -0500
-tags: [Git, Ruby, Projects]
+tags: [Git, Ruby,Tech]
 description: "Dug is a simple, configurable gem to organize your GitHub notification emails in ways Gmail can't and in an easier-to-maintain way than large, slow Google Apps Scripts."
 ---
 
