@@ -510,7 +510,7 @@ its own topic for another post.
 ### Happy Git Spelunking
 
 I hope this has given you some ideas on how to structure your Git history in a way that's helpful
-for future you and your team. Remember that it's practicality, not pedentry. It'll change how you
+for future you and your team. Remember that it's practicality, not pedantry. It'll change how you
 think about approaching software changes in general and make you a better engineer in the
 process.
 
