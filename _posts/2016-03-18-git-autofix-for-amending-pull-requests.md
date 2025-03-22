@@ -3,6 +3,7 @@ layout: post
 title: "Git autofix for amending Pull Requests"
 tags: [Git]
 description: "A quick share of two custom commands for instantly rebasing edits back into their proper commits in your feature branch."
+social_image: /images/posts/socialmediacards/autofix_card.png
 ---
 
 ![Demo of autofixup and autosquash](../images/posts/autosquash_demo.gif)

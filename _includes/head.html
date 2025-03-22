@@ -37,14 +37,14 @@
   <meta name="twitter:site" content="@chrisarcand">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description | strip_html }}{% endif %}">
-  <meta name="twitter:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}https://chrisarcand.com/images/circle_small.png{% endif %}">
+  <meta name="twitter:image" content="{% if page.social_image %}{{ page.social_image | prepend: site.url }}{% else %}https://chrisarcand.com/images/circle_small.png{% endif %}">
 
   <!-- Open Graph Metadata -->
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description | strip_html }}{% endif %}">
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-  <meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}https://chrisarcand.com/images/circle_small.png{% endif %}">
+  <meta property="og:image" content="{% if page.social_image %}{{ page.social_image | prepend: site.url }}{% else %}https://chrisarcand.com/images/circle_small.png{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}">
 
   <!-- Pinterest Rich Pins -->
@@ -95,7 +95,7 @@
     },
     "headline": "{{ page.title }}",
     "description": "{% if page.description %}{{ page.description }}{% else %}{{ site.description | strip_html }}{% endif %}",
-    "image": "{% if page.image %}{{ page.image | prepend: site.url }}{% else %}https://chrisarcand.com/images/circle_small.png{% endif %}",
+    "image": "{% if page.social_image %}{{ page.social_image | prepend: site.url }}{% else %}https://chrisarcand.com/images/circle_small.png{% endif %}",
     "author": {
       "@type": "Person",
       "name": "{{ site.author.name }}"
