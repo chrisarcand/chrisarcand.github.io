@@ -2,7 +2,7 @@
 layout: post
 title: "Don't become an Expert Beginner"
 modified: 2016-03-22 09:23:08 -0400
-tags: [Misc]
+tags: [Misc,Micropost]
 link: http://www.daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner
 description: "This post is older by now but still so, so important - and this is something that is universal to all learning, not just software development (or bowling!). Erik Dietrich explains How Developers Stop Learning."
 ---
