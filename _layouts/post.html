@@ -13,22 +13,24 @@ layout: default
     <!-- TODO mastodon share buttons -->
   </div>
 
- {% if page.image.feature %}
-   <div class="header-image-wrap">
-   <img src=
-     {% if page.image.feature contains 'http://' %}
-       "{{ page.image.feature }}"
-     {% elsif page.image.feature contains 'https://' %}
-       "{{ page.image.feature }}"
-     {% else %}
-       "{{ site.url }}/images/{{ page.image.feature }}"
-     {% endif %}
-   alt="{{ page.title }} feature image">
-   </div><!-- /.header-image-wrap -->
-   {% if page.image.credit %}
-     <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
-   {% endif %}
- {% endif %}
+  {% if page.image.feature %}
+    <div class="header-image-wrap">
+      <img src=
+        {% if page.image.feature contains 'http://' %}
+          "{{ page.image.feature }}"
+        {% elsif page.image.feature contains 'https://' %}
+          "{{ page.image.feature }}"
+        {% else %}
+          "{{ site.url }}/images/{{ page.image.feature }}"
+        {% endif %}
+      alt="{{ page.title }} feature image">
+    </div><!-- /.header-image-wrap -->
+    {% if page.image.credit %}
+      <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+    {% else %}
+      <div class="image-spacer"></div>
+    {% endif %}
+  {% endif %}
 
   <section class="post">
     {{ content }}

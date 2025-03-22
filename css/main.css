@@ -155,5 +155,9 @@ blockquote .twitter-share-button {
   font-size: 0.8em;
   color: #999;
   display: flex;
-  margin-bottom: 20px;
+}
+
+.image-credit,
+.image-spacer {
+  margin-bottom: 20px; /* Consistent margin below either credit or spacer */
 }
