@@ -3,6 +3,7 @@ layout: post
 title: "Zero Trust: Securely Accessing Home Assistant with Cloudflare Tunnels"
 tags: [Tech]
 description: "Implement Zero Trust architecture in your own home automation: connect remotely to your Home Assistant instance without opening any ports using Cloudflare Tunnels. Tobias Brenner's Cloudflared add-on for Home Assistant makes this a breeze."
+social-image: /images/posts/socialmediacards/cloudflare_tunnels_card.png
 ---
 
 I run home automation with [Home Assistant][1] on a Raspberry Pi, and I'd always been a little uneasy
