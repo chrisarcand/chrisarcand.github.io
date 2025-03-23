@@ -31,6 +31,8 @@ permalink: /:categories/:title/
 markdown: kramdown
 highlighter: rouge
 timezone: America/New_York
+future: true
+show_drafts: false
 
 kramdown:
   syntax_highlighter: rouge
