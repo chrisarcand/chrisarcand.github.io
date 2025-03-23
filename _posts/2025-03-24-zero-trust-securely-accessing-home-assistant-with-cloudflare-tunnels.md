@@ -47,12 +47,12 @@ http:
 ```
 
 Boom. After verifying the tunnel worked, I locked down my instance futher by adding a few more lines
-in this block, cutting off all access to Home Assistant _except_ from the Cloudflare tunnel (which
-is running local to HA):
+in this block, cutting off all access to Home Assistant _except_ from the Cloudflare tunnel (the Docker network).
 
 ```yaml
 http:
-  server_host: 127.0.0.1  # Only allows connections from localhost
+  # ...
+  server_host: 172.30.33.0/24
   # No SSL configuration needed anymore!
 ```
 
