@@ -46,20 +46,13 @@ http:
     - 172.30.33.0/24
 ```
 
-Boom. After verifying the tunnel worked, I locked down my instance futher by adding a few more lines
-in this block, cutting off all access to Home Assistant _except_ from the Cloudflare tunnel (the Docker network).
-
-```yaml
-http:
-  # ...
-  server_host: 172.30.33.0/24
-  # No SSL configuration needed anymore!
-```
-
 With this configuration, I then closed all previously forwarded ports in my router. Now my home
 automation is accessible only through Cloudflare's secure infrastructure while being completely
-sealed from direct access, both from the web and from even my own local network. After putting the
-cherry on top - enabling 2FA for Home Assistant - I feel much better about it all.
+sealed from direct access from the outside. After putting the cherry on top - enabling 2FA for Home
+Assistant - I feel much better about it all.
+
+I've struggled a bit with finding a way to close off all *internal* access to Home Assistant
+(forcing it all through Cloudflare), but I'll keep at it.
 
 If you run a Home Assistant instance, I highly recommend this setup.
 
